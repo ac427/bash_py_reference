@@ -1,0 +1,591 @@
+
+[2017-02-07T22:41:30.479] Message aggregation disabled
+[2017-02-07T22:41:30.480] CPU frequency setting not configured for this node
+[2017-02-07T22:41:30.480] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T22:41:30.486] slurmd version 16.05.8 started
+[2017-02-07T22:41:30.486] Warning: revoke on job 22 has no expiration
+[2017-02-07T22:41:30.486] slurmd started on Tue, 07 Feb 2017 22:41:30 -0500
+[2017-02-07T22:41:30.487] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=4474 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T22:42:23.035] fatal: Error reading initialization data from slurmd
+[2017-02-07T22:43:16.145] Message aggregation disabled
+[2017-02-07T22:43:16.146] CPU frequency setting not configured for this node
+[2017-02-07T22:43:16.146] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T22:43:16.148] slurmd version 16.05.8 started
+[2017-02-07T22:43:16.148] slurmd started on Tue, 07 Feb 2017 22:43:16 -0500
+[2017-02-07T22:43:16.149] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=4580 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T22:43:26.113] Slurmd shutdown completing
+[2017-02-07T22:43:26.122] Message aggregation disabled
+[2017-02-07T22:43:26.123] CPU frequency setting not configured for this node
+[2017-02-07T22:43:26.123] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T22:43:26.125] slurmd version 16.05.8 started
+[2017-02-07T22:43:26.125] slurmd started on Tue, 07 Feb 2017 22:43:26 -0500
+[2017-02-07T22:43:26.128] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=4590 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T22:43:52.287] Slurmd shutdown completing
+[2017-02-07T22:43:52.300] Message aggregation disabled
+[2017-02-07T22:43:52.301] CPU frequency setting not configured for this node
+[2017-02-07T22:43:52.301] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T22:43:52.304] slurmd version 16.05.8 started
+[2017-02-07T22:43:52.305] slurmd started on Tue, 07 Feb 2017 22:43:52 -0500
+[2017-02-07T22:43:52.309] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=4616 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T22:44:02.764] launch task 25.0 request from 0.0@172.16.0.1 (port 15540)
+[2017-02-07T22:44:02.765] _run_prolog: run job script took usec=5
+[2017-02-07T22:44:02.765] _run_prolog: prolog with lock for job 25 ran for 0 seconds
+[2017-02-07T22:44:02.770] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:44:02.770] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:44:02.770] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:44:02.770] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:44:02.771] [25.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:44:02.771] [25.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:44:02.772] [25.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:44:02.772] [25.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:44:02.772] [25.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T22:44:02.775] [25.0] done with job
+[2017-02-07T22:46:34.337] Slurmd shutdown completing
+[2017-02-07T22:46:34.355] Message aggregation disabled
+[2017-02-07T22:46:34.356] CPU frequency setting not configured for this node
+[2017-02-07T22:46:34.356] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T22:46:34.362] slurmd version 16.05.8 started
+[2017-02-07T22:46:34.363] slurmd started on Tue, 07 Feb 2017 22:46:34 -0500
+[2017-02-07T22:46:34.366] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=4778 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T22:46:39.608] launch task 26.0 request from 0.0@172.16.0.1 (port 19636)
+[2017-02-07T22:46:39.609] _run_prolog: run job script took usec=5
+[2017-02-07T22:46:39.609] _run_prolog: prolog with lock for job 26 ran for 0 seconds
+[2017-02-07T22:46:39.616] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:46:39.616] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:46:39.616] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:46:39.616] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:46:39.617] [26.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:46:39.617] [26.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:46:39.617] [26.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:46:39.617] [26.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:46:39.617] [26.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T22:46:39.620] [26.0] done with job
+[2017-02-07T22:47:03.336] Message aggregation disabled
+[2017-02-07T22:47:03.336] CPU frequency setting not configured for this node
+[2017-02-07T22:47:03.336] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T22:47:11.878] Slurmd shutdown completing
+[2017-02-07T22:47:11.894] Message aggregation disabled
+[2017-02-07T22:47:11.895] CPU frequency setting not configured for this node
+[2017-02-07T22:47:11.896] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T22:47:11.900] slurmd version 16.05.8 started
+[2017-02-07T22:47:11.901] slurmd started on Tue, 07 Feb 2017 22:47:11 -0500
+[2017-02-07T22:47:11.904] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=4815 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T22:47:15.695] launch task 27.0 request from 0.0@172.16.0.1 (port 24756)
+[2017-02-07T22:47:15.696] _run_prolog: run job script took usec=5
+[2017-02-07T22:47:15.696] _run_prolog: prolog with lock for job 27 ran for 0 seconds
+[2017-02-07T22:47:15.701] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:47:15.701] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:47:15.701] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:47:15.701] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:47:15.703] [27.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:47:15.703] [27.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:47:15.703] [27.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:47:15.703] [27.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:47:15.703] [27.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T22:47:15.707] [27.0] done with job
+[2017-02-07T22:49:18.604] launch task 28.0 request from 11000002.11000002@172.16.0.1 (port 28340)
+[2017-02-07T22:49:18.605] _run_prolog: run job script took usec=4
+[2017-02-07T22:49:18.605] _run_prolog: prolog with lock for job 28 ran for 0 seconds
+[2017-02-07T22:49:18.613] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:49:18.613] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:49:18.613] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:49:18.613] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:49:18.615] [28.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:49:18.615] [28.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:49:18.615] [28.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:49:18.615] [28.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:49:18.615] [28.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T22:49:18.619] [28.0] done with job
+[2017-02-07T22:55:30.759] launch task 29.0 request from 11000002.11000002@172.16.0.1 (port 32436)
+[2017-02-07T22:55:30.759] _run_prolog: run job script took usec=6
+[2017-02-07T22:55:30.759] _run_prolog: prolog with lock for job 29 ran for 0 seconds
+[2017-02-07T22:55:30.771] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:55:30.771] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:55:30.772] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:55:30.772] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:55:30.777] [29.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T22:55:30.777] [29.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T22:55:30.777] [29.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T22:55:30.777] [29.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T22:55:30.777] [29.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T22:55:30.782] [29.0] done with job
+[2017-02-07T23:05:56.081] Message aggregation disabled
+[2017-02-07T23:05:56.083] CPU frequency setting not configured for this node
+[2017-02-07T23:05:56.083] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T23:05:56.085] cgroup namespace 'freezer' is now mounted
+[2017-02-07T23:05:56.087] cgroup namespace 'cpuset' is now mounted
+[2017-02-07T23:05:56.091] slurmd version 16.05.8 started
+[2017-02-07T23:05:56.094] slurmd started on Tue, 07 Feb 2017 23:05:56 -0500
+[2017-02-07T23:05:56.098] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=76 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T23:06:01.506] launch task 31.0 request from 11000002.11000002@172.16.0.1 (port 45236)
+[2017-02-07T23:06:01.506] _run_prolog: run job script took usec=4
+[2017-02-07T23:06:01.506] _run_prolog: prolog with lock for job 31 ran for 0 seconds
+[2017-02-07T23:06:01.519] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:01.520] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:01.520] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:01.520] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:01.522] [31.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:01.522] [31.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:01.522] [31.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:01.522] [31.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:01.522] [31.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:06:01.527] [31.0] done with job
+[2017-02-07T23:06:10.181] launch task 32.0 request from 11000002.11000002@172.16.0.1 (port 47796)
+[2017-02-07T23:06:10.182] _run_prolog: run job script took usec=3
+[2017-02-07T23:06:10.182] _run_prolog: prolog with lock for job 32 ran for 0 seconds
+[2017-02-07T23:06:10.188] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:10.188] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:10.188] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:10.188] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:10.190] [32.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:10.190] [32.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:10.190] [32.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:10.190] [32.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:10.190] [32.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:06:10.194] [32.0] done with job
+[2017-02-07T23:06:19.841] launch task 33.0 request from 11000002.11000002@172.16.0.1 (port 50356)
+[2017-02-07T23:06:19.841] _run_prolog: run job script took usec=5
+[2017-02-07T23:06:19.841] _run_prolog: prolog with lock for job 33 ran for 0 seconds
+[2017-02-07T23:06:19.846] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:19.846] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:19.846] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:19.846] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:19.848] [33.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:19.848] [33.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:19.848] [33.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:19.848] [33.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:19.848] [33.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:06:19.851] [33.0] done with job
+[2017-02-07T23:06:54.064] launch task 34.0 request from 11000002.11000002@172.16.0.1 (port 52916)
+[2017-02-07T23:06:54.064] _run_prolog: run job script took usec=3
+[2017-02-07T23:06:54.065] _run_prolog: prolog with lock for job 34 ran for 0 seconds
+[2017-02-07T23:06:54.070] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:54.070] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:54.070] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:54.070] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:54.072] [34.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:06:54.072] [34.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:06:54.072] [34.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:06:54.072] [34.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:06:54.072] [34.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:06:54.076] [34.0] done with job
+[2017-02-07T23:07:47.282] launch task 37.0 request from 11000002.11000002@172.16.0.1 (port 61620)
+[2017-02-07T23:07:47.283] _run_prolog: run job script took usec=3
+[2017-02-07T23:07:47.283] _run_prolog: prolog with lock for job 37 ran for 0 seconds
+[2017-02-07T23:07:47.288] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:07:47.288] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:07:47.288] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:07:47.288] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:07:47.290] [37.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:07:47.290] [37.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:07:47.290] [37.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:07:47.290] [37.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:07:47.290] [37.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:07:47.294] [37.0] done with job
+[2017-02-07T23:27:01.319] Message aggregation disabled
+[2017-02-07T23:27:01.321] CPU frequency setting not configured for this node
+[2017-02-07T23:27:01.321] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T23:27:01.322] cgroup namespace 'freezer' is now mounted
+[2017-02-07T23:27:01.324] cgroup namespace 'cpuset' is now mounted
+[2017-02-07T23:27:01.328] slurmd version 16.05.8 started
+[2017-02-07T23:27:01.330] slurmd started on Tue, 07 Feb 2017 23:27:01 -0500
+[2017-02-07T23:27:01.334] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=114 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T23:29:58.982] launch task 39.0 request from 11000002.11000002@172.16.0.1 (port 45749)
+[2017-02-07T23:29:58.983] _run_prolog: run job script took usec=5
+[2017-02-07T23:29:58.983] _run_prolog: prolog with lock for job 39 ran for 0 seconds
+[2017-02-07T23:29:59.002] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:29:59.002] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:29:59.002] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:29:59.002] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:29:59.004] [39.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:29:59.004] [39.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:29:59.004] [39.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:29:59.004] [39.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:29:59.004] [39.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:29:59.008] [39.0] done with job
+[2017-02-07T23:29:59.030] launch task 42.0 request from 11000002.11000002@172.16.0.1 (port 47797)
+[2017-02-07T23:29:59.030] _run_prolog: run job script took usec=4
+[2017-02-07T23:29:59.030] _run_prolog: prolog with lock for job 42 ran for 0 seconds
+[2017-02-07T23:29:59.037] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:29:59.038] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:29:59.038] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:29:59.038] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:29:59.039] [42.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:29:59.039] [42.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:29:59.039] [42.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:29:59.039] [42.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:29:59.039] [42.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:29:59.044] [42.0] done with job
+[2017-02-07T23:31:38.743] launch task 43.0 request from 11000002.11000002@172.16.0.1 (port 50869)
+[2017-02-07T23:31:38.744] _run_prolog: run job script took usec=3
+[2017-02-07T23:31:38.744] _run_prolog: prolog with lock for job 43 ran for 0 seconds
+[2017-02-07T23:31:38.750] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:31:38.750] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:31:38.750] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:31:38.750] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:31:38.751] [43.0] error: unable to mount cpuacct cgroup namespace: Device or resource busy
+[2017-02-07T23:31:38.751] [43.0] error: jobacct_gather/cgroup: unable to create cpuacct namespace
+[2017-02-07T23:31:38.751] [43.0] error: Couldn't load specified plugin name for jobacct_gather/cgroup: Plugin init() callback failed
+[2017-02-07T23:31:38.751] [43.0] error: cannot create jobacct_gather context for jobacct_gather/cgroup
+[2017-02-07T23:31:38.751] [43.0] error: job_manager exiting abnormally, rc = 1011
+[2017-02-07T23:31:38.755] [43.0] done with job
+[2017-02-07T23:34:41.256] Message aggregation disabled
+[2017-02-07T23:34:41.256] CPU frequency setting not configured for this node
+[2017-02-07T23:34:41.256] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T23:35:12.878] Slurmd shutdown completing
+[2017-02-07T23:35:12.897] Message aggregation disabled
+[2017-02-07T23:35:12.898] CPU frequency setting not configured for this node
+[2017-02-07T23:35:12.898] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-07T23:35:12.901] slurmd version 16.05.8 started
+[2017-02-07T23:35:12.903] slurmd started on Tue, 07 Feb 2017 23:35:12 -0500
+[2017-02-07T23:35:12.906] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=605 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-07T23:35:17.652] launch task 44.0 request from 11000002.11000002@172.16.0.1 (port 55477)
+[2017-02-07T23:35:17.652] _run_prolog: run job script took usec=3
+[2017-02-07T23:35:17.652] _run_prolog: prolog with lock for job 44 ran for 0 seconds
+[2017-02-07T23:35:17.662] [44.0] in _window_manager
+[2017-02-07T23:35:39.373] [44.0] done with job
+[2017-02-08T00:21:13.329] error: Munge decode failed: Rewound credential
+[2017-02-08T00:21:13.329] ENCODED: Fri Feb 10 15:27:04 2017
+[2017-02-08T00:21:13.329] DECODED: Wed Feb 08 00:21:13 2017
+[2017-02-08T00:21:13.329] error: Check for out of sync clocks
+[2017-02-08T00:21:13.329] error: authentication: Rewound credential 
+[2017-02-08T00:21:13.329] error: slurm_receive_msg_and_forward: Protocol authentication error
+[2017-02-08T00:21:13.340] error: service_connection: slurm_receive_msg: Protocol authentication error
+[2017-02-10T21:24:27.312] launch task 45.0 request from 11000002.11000002@172.16.0.1 (port 33464)
+[2017-02-10T21:24:27.312] _run_prolog: run job script took usec=3
+[2017-02-10T21:24:27.312] _run_prolog: prolog with lock for job 45 ran for 0 seconds
+[2017-02-10T21:24:27.353] [45.0] in _window_manager
+[2017-02-10T21:24:56.496] [45.0] done with job
+[2017-02-17T12:44:30.310] Message aggregation disabled
+[2017-02-17T12:44:30.312] CPU frequency setting not configured for this node
+[2017-02-17T12:44:30.312] Resource spec: Reserved system memory limit not configured for this node
+[2017-02-17T12:44:30.314] cgroup namespace 'freezer' is now mounted
+[2017-02-17T12:44:30.316] cgroup namespace 'cpuset' is now mounted
+[2017-02-17T12:44:30.320] slurmd version 16.05.8 started
+[2017-02-17T12:44:30.324] slurmd started on Fri, 17 Feb 2017 12:44:30 -0500
+[2017-02-17T12:44:30.325] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=189 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-02-17T12:44:30.348] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:30.358] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:31.371] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:31.382] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:32.395] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:32.406] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:33.419] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:33.429] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:34.442] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:34.453] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:35.466] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:35.477] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:36.491] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:36.501] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:37.514] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:37.525] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:38.538] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:38.549] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:39.562] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:39.573] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:40.588] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:40.598] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:41.612] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:41.623] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:42.637] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:42.648] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:43.661] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:43.672] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:44.686] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:44.697] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:45.710] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:45.721] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:46.734] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:46.745] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:47.759] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:47.769] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:48.782] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:48.792] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:49.806] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:49.817] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:50.833] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:50.844] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:51.857] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:51.868] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:52.881] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:52.892] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:53.906] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:53.916] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:54.930] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:54.940] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:55.954] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:55.965] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:56.979] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:56.989] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:58.004] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:58.015] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:44:59.028] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:44:59.038] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:00.051] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:00.063] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:01.076] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:01.087] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:02.100] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:02.111] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:03.125] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:03.136] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:04.149] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:04.160] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:05.173] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:05.184] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:06.197] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:06.208] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:07.221] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:07.232] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:08.246] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:08.257] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:09.270] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:09.281] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:10.295] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:10.306] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:11.319] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:11.330] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:12.344] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:12.354] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:13.367] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:13.378] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:14.391] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:14.402] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:15.415] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:15.425] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:16.438] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:16.449] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:17.462] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:17.472] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:18.485] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:18.496] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:19.509] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:19.520] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:20.534] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:20.544] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:21.558] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:21.568] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:22.582] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:22.593] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:23.606] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:23.617] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:24.630] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:24.641] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:25.654] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:25.665] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:26.678] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:26.688] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:27.702] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:27.713] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:28.726] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:28.737] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:29.750] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:29.760] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:30.774] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:30.785] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:31.798] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:31.809] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:32.755] error: Munge decode failed: Rewound credential
+[2017-02-17T12:45:32.755] ENCODED: Tue Mar 07 16:49:55 2017
+[2017-02-17T12:45:32.755] DECODED: Fri Feb 17 12:45:32 2017
+[2017-02-17T12:45:32.755] error: Check for out of sync clocks
+[2017-02-17T12:45:32.755] error: authentication: Rewound credential 
+[2017-02-17T12:45:32.755] error: slurm_receive_msg_and_forward: Protocol authentication error
+[2017-02-17T12:45:32.766] error: service_connection: slurm_receive_msg: Protocol authentication error
+[2017-02-17T12:45:32.822] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:32.833] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:33.846] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:33.856] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:34.870] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:34.880] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:35.894] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:35.904] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:36.918] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:36.929] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:37.942] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:37.952] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:38.973] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:38.983] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:39.997] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:40.007] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:41.021] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:41.031] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:42.044] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:42.055] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:43.069] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:43.080] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:44.094] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:44.105] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:45.118] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:45.129] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:46.141] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:46.152] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:47.165] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:47.176] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:48.190] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:48.200] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:49.213] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:49.224] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:50.238] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:50.248] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:51.261] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:51.272] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:52.284] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:52.295] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:53.308] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:53.318] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:54.331] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:54.342] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:55.355] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:55.365] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:56.379] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:56.389] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:57.403] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:57.414] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:58.427] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:58.438] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:45:59.451] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:45:59.461] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:00.475] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:00.486] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:01.499] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:01.509] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:02.522] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:02.533] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:03.546] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:03.557] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:04.570] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:04.580] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:05.593] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:05.603] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:06.618] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:06.629] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:07.642] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:07.653] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:08.667] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:08.678] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:09.691] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:09.702] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:10.715] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:10.726] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:11.740] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:11.751] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:12.764] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:12.775] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:13.789] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:13.799] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:14.812] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:14.823] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:15.836] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:15.847] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:16.860] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:16.871] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:17.883] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:17.894] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:18.907] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:18.918] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:19.932] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:19.942] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:20.956] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:20.966] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:21.980] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:21.991] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:23.004] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:23.014] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:24.028] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:24.038] error: Unable to register: Zero Bytes were transmitted or received
+[2017-02-17T12:46:25.052] error: slurm_receive_msg: Zero Bytes were transmitted or received
+[2017-02-17T12:46:25.063] error: Unable to register: Zero Bytes were transmitted or received
+[2017-03-07T16:50:49.500] launch task 47.0 request from 11000002.11000002@172.16.0.1 (port 54466)
+[2017-03-07T16:50:49.500] _run_prolog: run job script took usec=3
+[2017-03-07T16:50:49.500] _run_prolog: prolog with lock for job 47 ran for 0 seconds
+[2017-03-07T16:50:49.530] [47.0] in _window_manager
+[2017-03-07T16:50:54.310] [47.0] done with job
+[2017-03-07T19:46:35.008] Message aggregation disabled
+[2017-03-07T19:46:35.009] CPU frequency setting not configured for this node
+[2017-03-07T19:46:35.009] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-07T19:46:35.011] cgroup namespace 'freezer' is now mounted
+[2017-03-07T19:46:35.013] cgroup namespace 'cpuset' is now mounted
+[2017-03-07T19:46:35.017] slurmd version 16.05.8 started
+[2017-03-07T19:46:35.021] slurmd started on Tue, 07 Mar 2017 19:46:35 -0500
+[2017-03-07T19:46:35.024] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=98 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-07T19:49:52.014] Message aggregation disabled
+[2017-03-07T19:49:52.014] topology NONE plugin loaded
+[2017-03-07T19:49:52.014] route default plugin loaded
+[2017-03-07T19:49:52.015] CPU frequency setting not configured for this node
+[2017-03-07T19:49:52.015] debug:  Resource spec: No specialized cores configured by default on this node
+[2017-03-07T19:49:52.015] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-07T19:49:52.015] debug:  Reading cgroup.conf file /etc/slurm/cgroup.conf
+[2017-03-07T19:49:52.015] debug:  Reading cgroup.conf file /etc/slurm/cgroup.conf
+[2017-03-07T19:49:52.015] debug:  task/cgroup: now constraining jobs allocated cores
+[2017-03-07T19:49:52.015] debug:  task/cgroup: loaded
+[2017-03-07T19:49:52.015] debug:  auth plugin for Munge (http://code.google.com/p/munge/) loaded
+[2017-03-07T19:49:52.015] debug:  spank: opening plugin stack /etc/slurm/plugstack.conf
+[2017-03-07T19:49:52.015] Munge cryptographic signature plugin loaded
+[2017-03-07T19:49:52.015] Warning: Core limit is only 0 KB
+[2017-03-07T19:49:52.015] slurmd version 16.05.8 started
+[2017-03-07T19:49:52.016] killing old slurmd[2298]
+[2017-03-07T19:49:52.016] Slurmd shutdown completing
+[2017-03-07T19:49:52.018] debug:  Job accounting gather LINUX plugin loaded
+[2017-03-07T19:49:52.018] debug:  job_container none plugin loaded
+[2017-03-07T19:49:52.018] debug:  switch NONE plugin loaded
+[2017-03-07T19:49:52.018] slurmd started on Tue, 07 Mar 2017 19:49:52 -0500
+[2017-03-07T19:49:52.020] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=295 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-07T19:49:52.020] debug:  AcctGatherEnergy NONE plugin loaded
+[2017-03-07T19:49:52.020] debug:  AcctGatherProfile NONE plugin loaded
+[2017-03-07T19:49:52.020] debug:  AcctGatherInfiniband NONE plugin loaded
+[2017-03-07T19:49:52.020] debug:  AcctGatherFilesystem NONE plugin loaded
+[2017-03-07T19:49:52.020] debug2: No acct_gather.conf file (/etc/slurm/acct_gather.conf)
+[2017-03-07T20:10:02.930] Message aggregation disabled
+[2017-03-07T20:10:02.935] CPU frequency setting not configured for this node
+[2017-03-07T20:10:02.935] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-07T20:10:02.937] cgroup namespace 'freezer' is now mounted
+[2017-03-07T20:10:02.939] cgroup namespace 'cpuset' is now mounted
+[2017-03-07T20:10:02.943] slurmd version 16.05.8 started
+[2017-03-07T20:10:02.944] error: Unable to unpack job state information
+[2017-03-07T20:10:02.944] error: Unable to unpack job credential state information
+[2017-03-07T20:10:02.947] slurmd started on Tue, 07 Mar 2017 20:10:02 -0500
+[2017-03-07T20:10:02.948] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=1120 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-07T20:10:20.314] Message aggregation disabled
+[2017-03-07T20:10:20.315] CPU frequency setting not configured for this node
+[2017-03-07T20:10:20.315] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-07T20:10:20.319] slurmd version 16.05.8 started
+[2017-03-07T20:10:20.319] killing old slurmd[2352]
+[2017-03-07T20:10:20.320] Slurmd shutdown completing
+[2017-03-07T20:10:20.323] slurmd started on Tue, 07 Mar 2017 20:10:20 -0500
+[2017-03-07T20:10:20.324] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=1137 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-07T20:16:26.658] Message aggregation disabled
+[2017-03-07T20:16:26.659] CPU frequency setting not configured for this node
+[2017-03-07T20:16:26.659] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-07T20:16:26.663] slurmd version 16.05.8 started
+[2017-03-07T20:16:26.663] killing old slurmd[2362]
+[2017-03-07T20:16:26.664] Slurmd shutdown completing
+[2017-03-07T20:16:26.665] slurmd started on Tue, 07 Mar 2017 20:16:26 -0500
+[2017-03-07T20:16:26.665] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=1503 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-11T11:10:46.392] Message aggregation disabled
+[2017-03-11T11:10:46.394] CPU frequency setting not configured for this node
+[2017-03-11T11:10:46.394] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-11T11:10:46.396] cgroup namespace 'freezer' is now mounted
+[2017-03-11T11:10:46.398] cgroup namespace 'cpuset' is now mounted
+[2017-03-11T11:10:46.402] slurmd version 16.05.8 started
+[2017-03-11T11:10:46.406] slurmd started on Sat, 11 Mar 2017 11:10:46 -0500
+[2017-03-11T11:10:46.408] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=56 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-11T11:11:22.470] Message aggregation disabled
+[2017-03-11T11:11:22.471] CPU frequency setting not configured for this node
+[2017-03-11T11:11:22.472] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-11T11:11:22.475] slurmd version 16.05.8 started
+[2017-03-11T11:11:22.477] slurmd started on Sat, 11 Mar 2017 11:11:22 -0500
+[2017-03-11T11:11:22.478] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=92 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-11T11:11:59.668] Message aggregation disabled
+[2017-03-11T11:11:59.669] CPU frequency setting not configured for this node
+[2017-03-11T11:11:59.669] Resource spec: Reserved system memory limit not configured for this node
+[2017-03-11T11:11:59.671] slurmd version 16.05.8 started
+[2017-03-11T11:11:59.671] slurmd started on Sat, 11 Mar 2017 11:11:59 -0500
+[2017-03-11T11:11:59.674] CPUs=1 Boards=1 Sockets=1 Cores=1 Threads=1 Memory=1572 TmpDisk=6334 Uptime=129 CPUSpecList=(null) FeaturesAvail=(null) FeaturesActive=(null)
+[2017-03-11T11:12:34.313] launch task 48.0 request from 11000002.11000002@172.16.0.1 (port 63130)
+[2017-03-11T11:12:34.313] _run_prolog: run job script took usec=3
+[2017-03-11T11:12:34.313] _run_prolog: prolog with lock for job 48 ran for 0 seconds
+[2017-03-11T11:12:34.333] [48.0] in _window_manager
+[2017-03-11T11:38:14.571] [48.0] done with job
+[2017-03-25T04:17:15.565] Slurmd shutdown completing

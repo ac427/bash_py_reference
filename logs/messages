@@ -1,0 +1,1928 @@
+Mar  2 08:01:01 admin systemd: Started Session 3 of user root.
+Mar  2 08:01:01 admin systemd: Starting Session 3 of user root.
+Mar  2 09:01:01 admin systemd: Started Session 4 of user root.
+Mar  2 09:01:01 admin systemd: Starting Session 4 of user root.
+Mar  2 10:01:01 admin systemd: Started Session 5 of user root.
+Mar  2 10:01:01 admin systemd: Starting Session 5 of user root.
+Mar  2 10:02:22 admin systemd-logind: Removed session 1.
+Mar  2 10:02:22 admin systemd: Removed slice user-0.slice.
+Mar  2 10:02:22 admin systemd: Stopping user-0.slice.
+Mar  2 11:01:01 admin systemd: Created slice user-0.slice.
+Mar  2 11:01:01 admin systemd: Starting user-0.slice.
+Mar  2 11:01:01 admin systemd: Started Session 6 of user root.
+Mar  2 11:01:01 admin systemd: Starting Session 6 of user root.
+Mar  2 11:01:01 admin systemd: Removed slice user-0.slice.
+Mar  2 11:01:01 admin systemd: Stopping user-0.slice.
+Mar  2 12:01:01 admin systemd: Created slice user-0.slice.
+Mar  2 12:01:01 admin systemd: Starting user-0.slice.
+Mar  2 12:01:01 admin systemd: Started Session 7 of user root.
+Mar  2 12:01:01 admin systemd: Starting Session 7 of user root.
+Mar  2 12:01:01 admin systemd: Removed slice user-0.slice.
+Mar  2 12:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 11:37:49 admin rsyslogd: [origin software="rsyslogd" swVersion="7.4.7" x-pid="1179" x-info="http://www.rsyslog.com"] start
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys cpuset
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys cpu
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys cpuacct
+Mar  3 11:37:29 admin kernel: Linux version 3.10.0-514.6.1.el7.x86_64 (builder@kbuilder.dev.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) ) #1 SMP Wed Jan 18 13:06:36 UTC 2017
+Mar  3 11:37:29 admin kernel: Command line: BOOT_IMAGE=/vmlinuz-3.10.0-514.6.1.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=en_US.UTF-8
+Mar  3 11:37:29 admin kernel: e820: BIOS-provided physical RAM map:
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Mar  3 11:37:29 admin kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar  3 11:37:29 admin kernel: NX (Execute Disable) protection: active
+Mar  3 11:37:29 admin kernel: SMBIOS 2.5 present.
+Mar  3 11:37:29 admin kernel: Hypervisor detected: KVM
+Mar  3 11:37:29 admin kernel: e820: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Mar  3 11:37:29 admin kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Mar  3 11:37:29 admin kernel: CPU MTRRs all blank - virtualized system.
+Mar  3 11:37:29 admin kernel: found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+Mar  3 11:37:29 admin kernel: RAMDISK: [mem 0x35b8c000-0x36dbdfff]
+Mar  3 11:37:29 admin kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Mar  3 11:37:29 admin kernel: ACPI: XSDT 000000007fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar  3 11:37:29 admin kernel: ACPI: FACP 000000007fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar  3 11:37:29 admin kernel: ACPI: DSDT 000000007fff0470 0210F (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Mar  3 11:37:29 admin kernel: ACPI: FACS 000000007fff0200 00040
+Mar  3 11:37:29 admin kernel: ACPI: APIC 000000007fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar  3 11:37:29 admin kernel: ACPI: SSDT 000000007fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Mar  3 11:37:29 admin kernel: No NUMA configuration found
+Mar  3 11:37:29 admin kernel: Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Mar  3 11:37:29 admin kernel: Initmem setup node 0 [mem 0x00000000-0x7ffeffff]
+Mar  3 11:37:29 admin kernel:  NODE_DATA [mem 0x7ffc9000-0x7ffeffff]
+Mar  3 11:37:29 admin kernel: Reserving 161MB of memory at 688MB for crashkernel (System RAM: 2047MB)
+Mar  3 11:37:29 admin kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar  3 11:37:29 admin kernel: kvm-clock: cpu 0, msr 0:7ff79001, primary cpu clock
+Mar  3 11:37:29 admin kernel: kvm-clock: using sched offset of 8159297425 cycles
+Mar  3 11:37:29 admin kernel: Zone ranges:
+Mar  3 11:37:29 admin kernel:  DMA      [mem 0x00001000-0x00ffffff]
+Mar  3 11:37:29 admin kernel:  DMA32    [mem 0x01000000-0xffffffff]
+Mar  3 11:37:29 admin kernel:  Normal   empty
+Mar  3 11:37:29 admin kernel: Movable zone start for each node
+Mar  3 11:37:29 admin kernel: Early memory node ranges
+Mar  3 11:37:29 admin kernel:  node   0: [mem 0x00001000-0x0009efff]
+Mar  3 11:37:29 admin kernel:  node   0: [mem 0x00100000-0x7ffeffff]
+Mar  3 11:37:29 admin kernel: ACPI: PM-Timer IO Port: 0x4008
+Mar  3 11:37:29 admin kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar  3 11:37:29 admin kernel: ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Mar  3 11:37:29 admin kernel: IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Mar  3 11:37:29 admin kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar  3 11:37:29 admin kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Mar  3 11:37:29 admin kernel: Using ACPI (MADT) for SMP configuration information
+Mar  3 11:37:29 admin kernel: smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Mar  3 11:37:29 admin kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar  3 11:37:29 admin kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar  3 11:37:29 admin kernel: PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar  3 11:37:29 admin kernel: e820: [mem 0x80000000-0xfebfffff] available for PCI devices
+Mar  3 11:37:29 admin kernel: Booting paravirtualized kernel on KVM
+Mar  3 11:37:29 admin kernel: setup_percpu: NR_CPUS:5120 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Mar  3 11:37:29 admin kernel: PERCPU: Embedded 33 pages/cpu @ffff88007fc00000 s96728 r8192 d30248 u2097152
+Mar  3 11:37:29 admin kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515961
+Mar  3 11:37:29 admin kernel: Policy zone: DMA32
+Mar  3 11:37:29 admin kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-514.6.1.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=en_US.UTF-8
+Mar  3 11:37:29 admin kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar  3 11:37:29 admin kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Mar  3 11:37:29 admin kernel: xsave: enabled xstate_bv 0x7, cntxt size 0x340 using standard form
+Mar  3 11:37:29 admin kernel: Memory: 1863464k/2097088k available (6765k kernel code, 392k absent, 233232k reserved, 4432k data, 1680k init)
+Mar  3 11:37:29 admin kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Mar  3 11:37:29 admin kernel: Hierarchical RCU implementation.
+Mar  3 11:37:29 admin kernel: #011RCU restricting CPUs from NR_CPUS=5120 to nr_cpu_ids=1.
+Mar  3 11:37:29 admin kernel: NR_IRQS:327936 nr_irqs:256 0
+Mar  3 11:37:29 admin kernel: Console: colour VGA+ 80x25
+Mar  3 11:37:29 admin kernel: console [tty0] enabled
+Mar  3 11:37:29 admin kernel: allocated 8388608 bytes of page_cgroup
+Mar  3 11:37:29 admin kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar  3 11:37:29 admin kernel: tsc: Detected 3099.998 MHz processor
+Mar  3 11:37:29 admin kernel: Calibrating delay loop (skipped) preset value.. 6199.99 BogoMIPS (lpj=3099998)
+Mar  3 11:37:29 admin kernel: pid_max: default: 32768 minimum: 301
+Mar  3 11:37:29 admin kernel: Security Framework initialized
+Mar  3 11:37:29 admin kernel: SELinux:  Initializing.
+Mar  3 11:37:29 admin kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Mar  3 11:37:29 admin kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Mar  3 11:37:29 admin kernel: Mount-cache hash table entries: 4096
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys memory
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys devices
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys freezer
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys net_cls
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys blkio
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys perf_event
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys hugetlb
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys pids
+Mar  3 11:37:29 admin kernel: Initializing cgroup subsys net_prio
+Mar  3 11:37:29 admin kernel: CPU: Physical Processor ID: 0
+Mar  3 11:37:29 admin kernel: mce: CPU supports 0 MCE banks
+Mar  3 11:37:29 admin kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar  3 11:37:29 admin kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0
+Mar  3 11:37:29 admin kernel: tlb_flushall_shift: 6
+Mar  3 11:37:29 admin kernel: Freeing SMP alternatives: 28k freed
+Mar  3 11:37:29 admin kernel: ACPI: Core revision 20130517
+Mar  3 11:37:29 admin kernel: ACPI: All ACPI Tables successfully acquired
+Mar  3 11:37:29 admin kernel: ftrace: allocating 25812 entries in 101 pages
+Mar  3 11:37:29 admin kernel: smpboot: APIC(0) Converting physical 0 to logical package 0
+Mar  3 11:37:29 admin kernel: smpboot: Max logical packages: 1
+Mar  3 11:37:29 admin kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar  3 11:37:29 admin kernel: smpboot: CPU0: Intel(R) Core(TM) i7-5557U CPU @ 3.10GHz (fam: 06, model: 3d, stepping: 04)
+Mar  3 11:37:29 admin kernel: APIC calibration not consistent with PM-Timer: 102ms instead of 100ms
+Mar  3 11:37:29 admin kernel: APIC delta adjusted to PM-Timer: 6368488 (6514911)
+Mar  3 11:37:29 admin kernel: Performance Events: unsupported p6 CPU model 61 no PMU driver, software events only.
+Mar  3 11:37:29 admin kernel: KVM setup paravirtual spinlock
+Mar  3 11:37:29 admin kernel: Brought up 1 CPUs
+Mar  3 11:37:29 admin kernel: smpboot: Total of 1 processors activated (6199.99 BogoMIPS)
+Mar  3 11:37:29 admin kernel: devtmpfs: initialized
+Mar  3 11:37:29 admin kernel: EVM: security.selinux
+Mar  3 11:37:29 admin kernel: EVM: security.ima
+Mar  3 11:37:29 admin kernel: EVM: security.capability
+Mar  3 11:37:29 admin kernel: atomic64 test passed for x86-64 platform with CX8 and with SSE
+Mar  3 11:37:29 admin kernel: pinctrl core: initialized pinctrl subsystem
+Mar  3 11:37:29 admin kernel: NET: Registered protocol family 16
+Mar  3 11:37:29 admin kernel: ACPI: bus type PCI registered
+Mar  3 11:37:29 admin kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar  3 11:37:29 admin kernel: PCI: Using configuration type 1 for base access
+Mar  3 11:37:29 admin kernel: ACPI: Added _OSI(Module Device)
+Mar  3 11:37:29 admin kernel: ACPI: Added _OSI(Processor Device)
+Mar  3 11:37:29 admin kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar  3 11:37:29 admin kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Mar  3 11:37:29 admin kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Mar  3 11:37:29 admin kernel: ACPI: Interpreter enabled
+Mar  3 11:37:29 admin kernel: ACPI: (supports S0 S5)
+Mar  3 11:37:29 admin kernel: ACPI: Using IOAPIC for interrupt routing
+Mar  3 11:37:29 admin kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar  3 11:37:29 admin kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar  3 11:37:29 admin kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar  3 11:37:29 admin kernel: acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Mar  3 11:37:29 admin kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar  3 11:37:29 admin kernel: PCI host bridge to bus 0000:00
+Mar  3 11:37:29 admin kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar  3 11:37:29 admin kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar  3 11:37:29 admin kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar  3 11:37:29 admin kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar  3 11:37:29 admin kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xffdfffff window]
+Mar  3 11:37:29 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar  3 11:37:29 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar  3 11:37:29 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar  3 11:37:29 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar  3 11:37:29 admin kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Mar  3 11:37:29 admin kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Mar  3 11:37:29 admin kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Mar  3 11:37:29 admin kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Mar  3 11:37:29 admin kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Mar  3 11:37:29 admin kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Mar  3 11:37:29 admin kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Mar  3 11:37:29 admin kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Mar  3 11:37:29 admin kernel: vgaarb: loaded
+Mar  3 11:37:29 admin kernel: vgaarb: bridge control possible 0000:00:02.0
+Mar  3 11:37:29 admin kernel: SCSI subsystem initialized
+Mar  3 11:37:29 admin kernel: ACPI: bus type USB registered
+Mar  3 11:37:29 admin kernel: usbcore: registered new interface driver usbfs
+Mar  3 11:37:29 admin kernel: usbcore: registered new interface driver hub
+Mar  3 11:37:29 admin kernel: usbcore: registered new device driver usb
+Mar  3 11:37:29 admin kernel: PCI: Using ACPI for IRQ routing
+Mar  3 11:37:29 admin kernel: NetLabel: Initializing
+Mar  3 11:37:29 admin kernel: NetLabel:  domain hash size = 128
+Mar  3 11:37:29 admin kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Mar  3 11:37:29 admin kernel: NetLabel:  unlabeled traffic allowed by default
+Mar  3 11:37:29 admin kernel: Switched to clocksource kvm-clock
+Mar  3 11:37:29 admin kernel: pnp: PnP ACPI init
+Mar  3 11:37:29 admin kernel: ACPI: bus type PNP registered
+Mar  3 11:37:29 admin kernel: pnp: PnP ACPI: found 2 devices
+Mar  3 11:37:29 admin kernel: ACPI: bus type PNP unregistered
+Mar  3 11:37:29 admin kernel: NET: Registered protocol family 2
+Mar  3 11:37:29 admin kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Mar  3 11:37:29 admin kernel: TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Mar  3 11:37:29 admin kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Mar  3 11:37:29 admin kernel: TCP: reno registered
+Mar  3 11:37:29 admin kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Mar  3 11:37:29 admin kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Mar  3 11:37:29 admin kernel: NET: Registered protocol family 1
+Mar  3 11:37:29 admin kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar  3 11:37:29 admin kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar  3 11:37:29 admin kernel: Unpacking initramfs...
+Mar  3 11:37:29 admin kernel: Freeing initrd memory: 18632k freed
+Mar  3 11:37:29 admin kernel: RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 10737418240 ms ovfl timer
+Mar  3 11:37:29 admin kernel: RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Mar  3 11:37:29 admin kernel: RAPL PMU: hw unit of domain package 2^-0 Joules
+Mar  3 11:37:29 admin kernel: RAPL PMU: hw unit of domain dram 2^-0 Joules
+Mar  3 11:37:29 admin kernel: RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Mar  3 11:37:29 admin kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Mar  3 11:37:29 admin kernel: sha1_ssse3: Using AVX optimized SHA-1 implementation
+Mar  3 11:37:29 admin kernel: sha256_ssse3: Using AVX optimized SHA-256 implementation
+Mar  3 11:37:29 admin kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Mar  3 11:37:29 admin kernel: Initialise system trusted keyring
+Mar  3 11:37:29 admin kernel: audit: initializing netlink socket (disabled)
+Mar  3 11:37:29 admin kernel: type=2000 audit(1488559059.416:1): initialized
+Mar  3 11:37:29 admin kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar  3 11:37:29 admin kernel: zpool: loaded
+Mar  3 11:37:29 admin kernel: zbud: loaded
+Mar  3 11:37:29 admin kernel: VFS: Disk quotas dquot_6.5.2
+Mar  3 11:37:29 admin kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar  3 11:37:29 admin kernel: msgmni has been set to 3676
+Mar  3 11:37:29 admin kernel: Key type big_key registered
+Mar  3 11:37:29 admin kernel: NET: Registered protocol family 38
+Mar  3 11:37:29 admin kernel: Key type asymmetric registered
+Mar  3 11:37:29 admin kernel: Asymmetric key parser 'x509' registered
+Mar  3 11:37:29 admin kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Mar  3 11:37:29 admin kernel: io scheduler noop registered
+Mar  3 11:37:29 admin kernel: io scheduler deadline registered (default)
+Mar  3 11:37:29 admin kernel: io scheduler cfq registered
+Mar  3 11:37:29 admin kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar  3 11:37:29 admin kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar  3 11:37:29 admin kernel: ACPI: AC Adapter [AC] (off-line)
+Mar  3 11:37:29 admin kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar  3 11:37:29 admin kernel: ACPI: Power Button [PWRF]
+Mar  3 11:37:29 admin kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar  3 11:37:29 admin kernel: ACPI: Sleep Button [SLPF]
+Mar  3 11:37:29 admin kernel: GHES: HEST is not enabled!
+Mar  3 11:37:29 admin kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Mar  3 11:37:29 admin kernel: Non-volatile memory driver v1.3
+Mar  3 11:37:29 admin kernel: Linux agpgart interface v0.103
+Mar  3 11:37:29 admin kernel: crash memory driver: version 1.1
+Mar  3 11:37:29 admin kernel: rdac: device handler registered
+Mar  3 11:37:29 admin kernel: ACPI: Battery Slot [BAT0] (battery present)
+Mar  3 11:37:29 admin kernel: hp_sw: device handler registered
+Mar  3 11:37:29 admin kernel: emc: device handler registered
+Mar  3 11:37:29 admin kernel: alua: device handler registered
+Mar  3 11:37:29 admin kernel: libphy: Fixed MDIO Bus: probed
+Mar  3 11:37:29 admin kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar  3 11:37:29 admin kernel: ehci-pci: EHCI PCI platform driver
+Mar  3 11:37:29 admin kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar  3 11:37:29 admin kernel: ohci-pci: OHCI PCI platform driver
+Mar  3 11:37:29 admin kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Mar  3 11:37:29 admin kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Mar  3 11:37:29 admin kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0404000
+Mar  3 11:37:29 admin kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Mar  3 11:37:29 admin kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  3 11:37:29 admin kernel: usb usb1: Product: OHCI PCI host controller
+Mar  3 11:37:29 admin kernel: usb usb1: Manufacturer: Linux 3.10.0-514.6.1.el7.x86_64 ohci_hcd
+Mar  3 11:37:29 admin kernel: usb usb1: SerialNumber: 0000:00:06.0
+Mar  3 11:37:29 admin kernel: hub 1-0:1.0: USB hub found
+Mar  3 11:37:29 admin kernel: hub 1-0:1.0: 12 ports detected
+Mar  3 11:37:29 admin kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Mar  3 11:37:29 admin kernel: usbcore: registered new interface driver usbserial
+Mar  3 11:37:29 admin kernel: usbcore: registered new interface driver usbserial_generic
+Mar  3 11:37:29 admin kernel: usbserial: USB Serial support registered for generic
+Mar  3 11:37:29 admin kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Mar  3 11:37:29 admin kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar  3 11:37:29 admin kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar  3 11:37:29 admin kernel: mousedev: PS/2 mouse device common for all mice
+Mar  3 11:37:29 admin kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Mar  3 11:37:29 admin kernel: rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Mar  3 11:37:29 admin kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Mar  3 11:37:29 admin kernel: cpuidle: using governor menu
+Mar  3 11:37:29 admin kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Mar  3 11:37:29 admin kernel: usbcore: registered new interface driver usbhid
+Mar  3 11:37:29 admin kernel: usbhid: USB HID core driver
+Mar  3 11:37:29 admin kernel: drop_monitor: Initializing network drop monitor service
+Mar  3 11:37:29 admin kernel: TCP: cubic registered
+Mar  3 11:37:29 admin kernel: Initializing XFRM netlink socket
+Mar  3 11:37:29 admin kernel: NET: Registered protocol family 10
+Mar  3 11:37:29 admin kernel: NET: Registered protocol family 17
+Mar  3 11:37:29 admin kernel: microcode: CPU0 sig=0x306d4, pf=0x40, revision=0x0
+Mar  3 11:37:29 admin kernel: microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Mar  3 11:37:29 admin kernel: Loading compiled-in X.509 certificates
+Mar  3 11:37:29 admin kernel: Loaded X.509 cert 'CentOS Linux kpatch signing key: ea0413152cde1d98ebdca3fe6f0230904c9ef717'
+Mar  3 11:37:29 admin kernel: Loaded X.509 cert 'CentOS Linux Driver update signing key: 7f421ee0ab69461574bb358861dbe77762a4201b'
+Mar  3 11:37:29 admin kernel: Loaded X.509 cert 'CentOS Linux kernel signing key: ee3bc25344a671f6d7764a5cfd83ab4bafdbe74d'
+Mar  3 11:37:29 admin kernel: registered taskstats version 1
+Mar  3 11:37:29 admin kernel: Key type trusted registered
+Mar  3 11:37:29 admin kernel: Key type encrypted registered
+Mar  3 11:37:29 admin kernel: IMA: No TPM chip found, activating TPM-bypass!
+Mar  3 11:37:29 admin kernel: rtc_cmos rtc_cmos: setting system clock to 2017-03-03 16:37:29 UTC (1488559049)
+Mar  3 11:37:29 admin kernel: Freeing unused kernel memory: 1680k freed
+Mar  3 11:37:29 admin systemd[1]: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar  3 11:37:29 admin systemd[1]: Detected virtualization kvm.
+Mar  3 11:37:29 admin systemd[1]: Detected architecture x86-64.
+Mar  3 11:37:29 admin systemd[1]: Running in initial RAM disk.
+Mar  3 11:37:29 admin systemd[1]: Set hostname to <admin>.
+Mar  3 11:37:29 admin systemd[1]: Reached target Swap.
+Mar  3 11:37:29 admin systemd[1]: Starting Swap.
+Mar  3 11:37:29 admin systemd[1]: Reached target Timers.
+Mar  3 11:37:29 admin systemd[1]: Starting Timers.
+Mar  3 11:37:29 admin systemd[1]: Created slice Root Slice.
+Mar  3 11:37:29 admin systemd[1]: Starting Root Slice.
+Mar  3 11:37:29 admin systemd[1]: Listening on udev Control Socket.
+Mar  3 11:37:29 admin systemd[1]: Starting udev Control Socket.
+Mar  3 11:37:29 admin systemd[1]: Listening on udev Kernel Socket.
+Mar  3 11:37:29 admin systemd[1]: Starting udev Kernel Socket.
+Mar  3 11:37:29 admin systemd[1]: Reached target Local File Systems.
+Mar  3 11:37:29 admin systemd[1]: Starting Local File Systems.
+Mar  3 11:37:29 admin systemd[1]: Listening on Journal Socket.
+Mar  3 11:37:29 admin systemd[1]: Starting Journal Socket.
+Mar  3 11:37:29 admin systemd[1]: Reached target Sockets.
+Mar  3 11:37:29 admin systemd[1]: Starting Sockets.
+Mar  3 11:37:29 admin systemd[1]: Created slice System Slice.
+Mar  3 11:37:29 admin systemd[1]: Starting System Slice.
+Mar  3 11:37:29 admin systemd[1]: Starting Setup Virtual Console...
+Mar  3 11:37:29 admin systemd[1]: Starting Journal Service...
+Mar  3 11:37:29 admin systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Mar  3 11:37:29 admin systemd[1]: Starting dracut cmdline hook...
+Mar  3 11:37:29 admin systemd[1]: Reached target Slices.
+Mar  3 11:37:29 admin systemd[1]: Starting Slices.
+Mar  3 11:37:29 admin systemd[1]: Starting Apply Kernel Variables...
+Mar  3 11:37:29 admin systemd[1]: Started Create list of required static device nodes for the current kernel.
+Mar  3 11:37:29 admin systemd[1]: Started Apply Kernel Variables.
+Mar  3 11:37:29 admin systemd[1]: Starting Create Static Device Nodes in /dev...
+Mar  3 11:37:29 admin systemd[1]: Started Create Static Device Nodes in /dev.
+Mar  3 11:37:29 admin journal: Journal started
+Mar  3 11:37:29 admin systemd[1]: Started Journal Service.
+Mar  3 11:37:29 admin systemd: Started Setup Virtual Console.
+Mar  3 11:37:29 admin kernel: psmouse serio1: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+Mar  3 11:37:29 admin kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Mar  3 11:37:29 admin systemd: Started dracut cmdline hook.
+Mar  3 11:37:29 admin systemd: Starting dracut pre-udev hook...
+Mar  3 11:37:29 admin kernel: device-mapper: uevent: version 1.0.3
+Mar  3 11:37:29 admin kernel: device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Mar  3 11:37:29 admin systemd: Started dracut pre-udev hook.
+Mar  3 11:37:29 admin systemd: Starting udev Kernel Device Manager...
+Mar  3 11:37:29 admin systemd-udevd: starting version 219
+Mar  3 11:37:29 admin systemd: Started udev Kernel Device Manager.
+Mar  3 11:37:29 admin systemd: Starting udev Coldplug all Devices...
+Mar  3 11:37:29 admin systemd: Mounting Configuration File System...
+Mar  3 11:37:29 admin systemd: Mounted Configuration File System.
+Mar  3 11:37:29 admin kernel: FUJITSU Extended Socket Network Device Driver - version 1.1 - Copyright (c) 2015 FUJITSU LIMITED
+Mar  3 11:37:29 admin kernel: virtio-pci 0000:00:03.0: virtio_pci: leaving for legacy driver
+Mar  3 11:37:29 admin kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Mar  3 11:37:29 admin kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Mar  3 11:37:29 admin systemd: Started udev Coldplug all Devices.
+Mar  3 11:37:29 admin systemd: Starting dracut initqueue hook...
+Mar  3 11:37:29 admin systemd: Starting Show Plymouth Boot Screen...
+Mar  3 11:37:29 admin systemd: Reached target System Initialization.
+Mar  3 11:37:29 admin systemd: Starting System Initialization.
+Mar  3 11:37:29 admin systemd: Started Show Plymouth Boot Screen.
+Mar  3 11:37:29 admin systemd: Reached target Paths.
+Mar  3 11:37:29 admin systemd: Starting Paths.
+Mar  3 11:37:29 admin systemd: Started Forward Password Requests to Plymouth Directory Watch.
+Mar  3 11:37:29 admin systemd: Starting Forward Password Requests to Plymouth Directory Watch.
+Mar  3 11:37:29 admin systemd: Reached target Basic System.
+Mar  3 11:37:29 admin systemd: Starting Basic System.
+Mar  3 11:37:30 admin kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:36:00:9b
+Mar  3 11:37:30 admin kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Mar  3 11:37:30 admin kernel: scsi host0: ata_piix
+Mar  3 11:37:30 admin kernel: scsi host1: ata_piix
+Mar  3 11:37:30 admin kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Mar  3 11:37:30 admin kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Mar  3 11:37:30 admin kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Mar  3 11:37:30 admin kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Mar  3 11:37:30 admin kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Mar  3 11:37:30 admin kernel: scsi host2: ahci
+Mar  3 11:37:30 admin kernel: ata3: SATA max UDMA/133 abar m8192@0xf0440000 port 0xf0440100 irq 21
+Mar  3 11:37:30 admin kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Mar  3 11:37:30 admin kernel: ata2.00: configured for UDMA/33
+Mar  3 11:37:30 admin kernel: scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Mar  3 11:37:30 admin kernel: tsc: Refined TSC clocksource calibration: 3098.698 MHz
+Mar  3 11:37:30 admin kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Mar  3 11:37:30 admin kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Mar  3 11:37:30 admin kernel: ata3.00: 41943040 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Mar  3 11:37:30 admin kernel: ata3.00: configured for UDMA/133
+Mar  3 11:37:30 admin kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Mar  3 11:37:30 admin kernel: sd 2:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+Mar  3 11:37:30 admin kernel: sd 2:0:0:0: [sda] Write Protect is off
+Mar  3 11:37:30 admin kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar  3 11:37:30 admin kernel: sda: sda1 sda2
+Mar  3 11:37:30 admin kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Mar  3 11:37:30 admin kernel: sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Mar  3 11:37:30 admin kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Mar  3 11:37:30 admin systemd: Found device /dev/mapper/centos-root.
+Mar  3 11:37:30 admin systemd: Starting File System Check on /dev/mapper/centos-root...
+Mar  3 11:37:30 admin systemd: Started dracut initqueue hook.
+Mar  3 11:37:30 admin systemd: Reached target Remote File Systems (Pre).
+Mar  3 11:37:30 admin systemd: Starting Remote File Systems (Pre).
+Mar  3 11:37:30 admin systemd: Reached target Remote File Systems.
+Mar  3 11:37:30 admin systemd: Starting Remote File Systems.
+Mar  3 11:37:30 admin systemd-fsck: /sbin/fsck.xfs: XFS file system.
+Mar  3 11:37:30 admin systemd: Started File System Check on /dev/mapper/centos-root.
+Mar  3 11:37:30 admin systemd: Mounting /sysroot...
+Mar  3 11:37:30 admin kernel: SGI XFS with ACLs, security attributes, no debug enabled
+Mar  3 11:37:30 admin kernel: XFS (dm-0): Mounting V4 Filesystem
+Mar  3 11:37:30 admin kernel: XFS (dm-0): Starting recovery (logdev: internal)
+Mar  3 11:37:30 admin kernel: XFS (dm-0): Ending recovery (logdev: internal)
+Mar  3 11:37:30 admin systemd: Mounted /sysroot.
+Mar  3 11:37:30 admin systemd: Reached target Initrd Root File System.
+Mar  3 11:37:30 admin systemd: Starting Initrd Root File System.
+Mar  3 11:37:30 admin systemd: Starting Reload Configuration from the Real Root...
+Mar  3 11:37:30 admin systemd: Reloading.
+Mar  3 11:37:30 admin systemd: Started Reload Configuration from the Real Root.
+Mar  3 11:37:30 admin systemd: Reached target Initrd File Systems.
+Mar  3 11:37:30 admin systemd: Starting Initrd File Systems.
+Mar  3 11:37:30 admin systemd: Reached target Initrd Default Target.
+Mar  3 11:37:30 admin systemd: Starting Initrd Default Target.
+Mar  3 11:37:30 admin systemd: Starting dracut pre-pivot and cleanup hook...
+Mar  3 11:37:31 admin systemd: Started dracut pre-pivot and cleanup hook.
+Mar  3 11:37:31 admin systemd: Starting Cleaning Up and Shutting Down Daemons...
+Mar  3 11:37:31 admin systemd: Starting Plymouth switch root service...
+Mar  3 11:37:31 admin systemd: Stopped target Timers.
+Mar  3 11:37:31 admin systemd: Stopping Timers.
+Mar  3 11:37:31 admin systemd: Stopped Cleaning Up and Shutting Down Daemons.
+Mar  3 11:37:31 admin systemd: Stopped dracut pre-pivot and cleanup hook.
+Mar  3 11:37:31 admin systemd: Stopping dracut pre-pivot and cleanup hook...
+Mar  3 11:37:31 admin systemd: Stopped target Remote File Systems.
+Mar  3 11:37:31 admin systemd: Stopping Remote File Systems.
+Mar  3 11:37:31 admin systemd: Stopped target Remote File Systems (Pre).
+Mar  3 11:37:31 admin systemd: Stopping Remote File Systems (Pre).
+Mar  3 11:37:31 admin systemd: Stopped dracut initqueue hook.
+Mar  3 11:37:31 admin systemd: Stopping dracut initqueue hook...
+Mar  3 11:37:31 admin systemd: Stopped target Initrd Default Target.
+Mar  3 11:37:31 admin systemd: Stopping Initrd Default Target.
+Mar  3 11:37:31 admin systemd: Stopped target Basic System.
+Mar  3 11:37:31 admin systemd: Stopping Basic System.
+Mar  3 11:37:31 admin systemd: Stopped target Sockets.
+Mar  3 11:37:31 admin systemd: Stopping Sockets.
+Mar  3 11:37:31 admin systemd: Stopped target System Initialization.
+Mar  3 11:37:31 admin systemd: Stopping System Initialization.
+Mar  3 11:37:31 admin systemd: Stopped target Local File Systems.
+Mar  3 11:37:31 admin systemd: Stopping Local File Systems.
+Mar  3 11:37:31 admin systemd: Stopping udev Kernel Device Manager...
+Mar  3 11:37:31 admin systemd: Stopped target Swap.
+Mar  3 11:37:31 admin systemd: Stopping Swap.
+Mar  3 11:37:31 admin systemd: Stopped Apply Kernel Variables.
+Mar  3 11:37:31 admin systemd: Stopping Apply Kernel Variables...
+Mar  3 11:37:31 admin systemd: Stopped udev Coldplug all Devices.
+Mar  3 11:37:31 admin systemd: Stopping udev Coldplug all Devices...
+Mar  3 11:37:31 admin systemd: Stopped target Slices.
+Mar  3 11:37:31 admin systemd: Stopping Slices.
+Mar  3 11:37:31 admin systemd: Stopped target Paths.
+Mar  3 11:37:31 admin systemd: Stopping Paths.
+Mar  3 11:37:31 admin systemd: Stopped udev Kernel Device Manager.
+Mar  3 11:37:31 admin systemd: Stopped dracut pre-udev hook.
+Mar  3 11:37:31 admin systemd: Stopping dracut pre-udev hook...
+Mar  3 11:37:31 admin systemd: Stopped dracut cmdline hook.
+Mar  3 11:37:31 admin systemd: Stopping dracut cmdline hook...
+Mar  3 11:37:31 admin systemd: Stopped Create Static Device Nodes in /dev.
+Mar  3 11:37:31 admin systemd: Stopping Create Static Device Nodes in /dev...
+Mar  3 11:37:31 admin systemd: Stopped Create list of required static device nodes for the current kernel.
+Mar  3 11:37:31 admin systemd: Stopping Create list of required static device nodes for the current kernel...
+Mar  3 11:37:31 admin systemd: Closed udev Kernel Socket.
+Mar  3 11:37:31 admin systemd: Stopping udev Kernel Socket.
+Mar  3 11:37:31 admin systemd: Closed udev Control Socket.
+Mar  3 11:37:31 admin systemd: Stopping udev Control Socket.
+Mar  3 11:37:31 admin systemd: Starting Cleanup udevd DB...
+Mar  3 11:37:31 admin systemd: Started Cleanup udevd DB.
+Mar  3 11:37:31 admin systemd: Reached target Switch Root.
+Mar  3 11:37:31 admin systemd: Starting Switch Root.
+Mar  3 11:37:31 admin systemd: Started Plymouth switch root service.
+Mar  3 11:37:31 admin systemd: Starting Switch Root...
+Mar  3 11:37:31 admin systemd: Switching root.
+Mar  3 11:37:31 admin journal: Journal stopped
+Mar  3 11:37:31 admin journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.9M free of 911.7M available → current limit 91.9M).
+Mar  3 11:37:31 admin journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.9M free of 911.7M available → current limit 91.9M).
+Mar  3 11:37:31 admin systemd-journald[89]: Received SIGTERM from PID 1 (systemd).
+Mar  3 11:37:31 admin kernel: SELinux:  Disabled at runtime.
+Mar  3 11:37:31 admin kernel: type=1404 audit(1488559051.115:2): selinux=0 auid=4294967295 ses=4294967295
+Mar  3 11:37:31 admin kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar  3 11:37:31 admin systemd[1]: Inserted module 'ip_tables'
+Mar  3 11:37:31 admin journal: Journal started
+Mar  3 11:37:31 admin systemd: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar  3 11:37:31 admin systemd: Detected virtualization kvm.
+Mar  3 11:37:31 admin systemd: Detected architecture x86-64.
+Mar  3 11:37:31 admin systemd: Set hostname to <admin>.
+Mar  3 11:37:31 admin systemd: [/usr/lib/systemd/system/microcode.service:10] Trailing garbage, ignoring.
+Mar  3 11:37:31 admin systemd: microcode.service lacks both ExecStart= and ExecStop= setting. Refusing.
+Mar  3 11:37:31 admin systemd: Cannot add dependency job for unit microcode.service, ignoring: Unit is not loaded properly: Invalid argument.
+Mar  3 11:37:31 admin systemd: Starting Flush Journal to Persistent Storage...
+Mar  3 11:37:31 admin systemd: Started LVM2 metadata daemon.
+Mar  3 11:37:31 admin systemd: Starting LVM2 metadata daemon...
+Mar  3 11:37:31 admin systemd: Started Create Static Device Nodes in /dev.
+Mar  3 11:37:31 admin systemd: Starting udev Kernel Device Manager...
+Mar  3 11:37:31 admin systemd: Started Load/Save Random Seed.
+Mar  3 11:37:31 admin systemd: Started udev Coldplug all Devices.
+Mar  3 11:37:31 admin systemd-udevd: starting version 219
+Mar  3 11:37:31 admin kernel: RPC: Registered named UNIX socket transport module.
+Mar  3 11:37:31 admin kernel: RPC: Registered udp transport module.
+Mar  3 11:37:31 admin kernel: RPC: Registered tcp transport module.
+Mar  3 11:37:31 admin kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Mar  3 11:37:31 admin systemd: Mounted RPC Pipe File System.
+Mar  3 11:37:31 admin journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.9M free of 911.7M available → current limit 91.9M).
+Mar  3 11:37:31 admin systemd: Started Flush Journal to Persistent Storage.
+Mar  3 11:37:31 admin kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Mar  3 11:37:31 admin systemd: Mounted NFSD configuration filesystem.
+Mar  3 11:37:31 admin systemd: Started udev Kernel Device Manager.
+Mar  3 11:37:31 admin systemd: Started Configure read-only root support.
+Mar  3 11:37:31 admin kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Mar  3 11:37:31 admin kernel: input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Mar  3 11:37:31 admin kernel: input: PC Speaker as /devices/platform/pcspkr/input/input5
+Mar  3 11:37:31 admin kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Mar  3 11:37:31 admin kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Mar  3 11:37:31 admin kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+Mar  3 11:37:31 admin kernel: AES CTR mode by8 optimization enabled
+Mar  3 11:37:31 admin kernel: alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+Mar  3 11:37:31 admin kernel: ppdev: user-space parallel port driver
+Mar  3 11:37:31 admin kernel: alg: No test for crc32 (crc32-pclmul)
+Mar  3 11:37:31 admin kernel: intel_rapl: no valid rapl domains found in package 0
+Mar  3 11:37:31 admin systemd: Found device /dev/mapper/centos-swap.
+Mar  3 11:37:31 admin systemd: Activating swap /dev/mapper/centos-swap...
+Mar  3 11:37:31 admin systemd: Found device VBOX_HARDDISK 1.
+Mar  3 11:37:31 admin kernel: Adding 2097148k swap on /dev/mapper/centos-swap.  Priority:-1 extents:1 across:2097148k FS
+Mar  3 11:37:31 admin systemd: Activated swap /dev/mapper/centos-swap.
+Mar  3 11:37:31 admin systemd: Reached target Swap.
+Mar  3 11:37:31 admin systemd: Starting Swap.
+Mar  3 11:37:31 admin systemd: Created slice system-lvm2\x2dpvscan.slice.
+Mar  3 11:37:31 admin systemd: Starting system-lvm2\x2dpvscan.slice.
+Mar  3 11:37:31 admin systemd: Starting LVM2 PV scan on device 8:2...
+Mar  3 11:37:31 admin lvm: WARNING: lvmetad is being updated, retrying (setup) for 10 more seconds.
+Mar  3 11:37:31 admin lvm: 2 logical volume(s) in volume group "centos" monitored
+Mar  3 11:37:31 admin systemd: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Mar  3 11:37:31 admin systemd: Reached target Local File Systems (Pre).
+Mar  3 11:37:31 admin systemd: Starting Local File Systems (Pre).
+Mar  3 11:37:31 admin systemd: Mounting /boot...
+Mar  3 11:37:31 admin kernel: XFS (sda1): Mounting V4 Filesystem
+Mar  3 11:37:32 admin kernel: snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Mar  3 11:37:32 admin systemd: Reached target Sound Card.
+Mar  3 11:37:32 admin systemd: Starting Sound Card.
+Mar  3 11:37:32 admin kernel: XFS (sda1): Starting recovery (logdev: internal)
+Mar  3 11:37:32 admin kernel: XFS (sda1): Ending recovery (logdev: internal)
+Mar  3 11:37:32 admin systemd: Mounted /boot.
+Mar  3 11:37:32 admin systemd: Reached target Local File Systems.
+Mar  3 11:37:32 admin systemd: Starting Local File Systems.
+Mar  3 11:37:32 admin systemd: Starting Tell Plymouth To Write Out Runtime Data...
+Mar  3 11:37:32 admin systemd: Starting openibd - configure Mellanox devices...
+Mar  3 11:37:32 admin systemd: Starting Preprocess NFS configuration...
+Mar  3 11:37:32 admin systemd: Starting Import network configuration from initramfs...
+Mar  3 11:37:32 admin systemd: Started Preprocess NFS configuration.
+Mar  3 11:37:32 admin systemd: Starting NFSv4 ID-name mapping service...
+Mar  3 11:37:32 admin systemd: Started Tell Plymouth To Write Out Runtime Data.
+Mar  3 11:37:32 admin systemd: Started NFSv4 ID-name mapping service.
+Mar  3 11:37:32 admin systemd: Started Import network configuration from initramfs.
+Mar  3 11:37:32 admin systemd: Starting Create Volatile Files and Directories...
+Mar  3 11:37:32 admin logger[602]: openibd: running in auto mode
+Mar  3 11:37:32 admin systemd: Started Create Volatile Files and Directories.
+Mar  3 11:37:32 admin systemd: Starting Security Auditing Service...
+Mar  3 11:37:32 admin auditd[605]: Started dispatcher: /sbin/audispd pid: 609
+Mar  3 11:37:32 admin kernel: type=1305 audit(1488559052.430:3): audit_pid=605 old=0 auid=4294967295 ses=4294967295 res=1
+Mar  3 11:37:32 admin audispd: No plugins found, exiting
+Mar  3 11:37:32 admin augenrules: /sbin/augenrules: No change
+Mar  3 11:37:32 admin auditd[605]: Init complete, auditd 2.6.5 listening for events (startup state enable)
+Mar  3 11:37:32 admin augenrules: No rules
+Mar  3 11:37:32 admin augenrules: enabled 1
+Mar  3 11:37:32 admin augenrules: failure 1
+Mar  3 11:37:32 admin augenrules: pid 605
+Mar  3 11:37:32 admin augenrules: rate_limit 0
+Mar  3 11:37:32 admin augenrules: backlog_limit 320
+Mar  3 11:37:32 admin augenrules: lost 0
+Mar  3 11:37:32 admin augenrules: backlog 1
+Mar  3 11:37:32 admin systemd: Started Security Auditing Service.
+Mar  3 11:37:32 admin systemd: Starting Update UTMP about System Boot/Shutdown...
+Mar  3 11:37:32 admin systemd: Started Update UTMP about System Boot/Shutdown.
+Mar  3 11:37:32 admin systemd: Reached target System Initialization.
+Mar  3 11:37:32 admin systemd: Starting System Initialization.
+Mar  3 11:37:32 admin systemd: Started Flexible branding.
+Mar  3 11:37:32 admin systemd: Starting Flexible branding.
+Mar  3 11:37:32 admin systemd: Reached target Paths.
+Mar  3 11:37:32 admin systemd: Starting Paths.
+Mar  3 11:37:32 admin systemd: Listening on D-Bus System Message Bus Socket.
+Mar  3 11:37:32 admin systemd: Starting D-Bus System Message Bus Socket.
+Mar  3 11:37:32 admin systemd: Listening on RPCbind Server Activation Socket.
+Mar  3 11:37:32 admin systemd: Starting RPCbind Server Activation Socket.
+Mar  3 11:37:32 admin systemd: Reached target Sockets.
+Mar  3 11:37:32 admin systemd: Starting Sockets.
+Mar  3 11:37:32 admin systemd: Reached target Basic System.
+Mar  3 11:37:32 admin systemd: Starting Basic System.
+Mar  3 11:37:32 admin systemd: Starting Login Service...
+Mar  3 11:37:32 admin systemd: Starting GSSAPI Proxy Daemon...
+Mar  3 11:37:32 admin systemd: Starting Authorization Manager...
+Mar  3 11:37:32 admin systemd: Starting Generate rndc key for BIND (DNS)...
+Mar  3 11:37:32 admin systemd: Starting Dump dmesg to /var/log/dmesg...
+Mar  3 11:37:32 admin systemd: Starting Network Time Service...
+Mar  3 11:37:32 admin systemd: Started D-Bus System Message Bus.
+Mar  3 11:37:32 admin ntpd[633]: ntpd 4.2.6p5@1.2349-o Mon Feb  6 07:34:43 UTC 2017 (1)
+Mar  3 11:37:32 admin polkitd[630]: Started polkitd version 0.112
+Mar  3 11:37:32 admin systemd: Starting D-Bus System Message Bus...
+Mar  3 11:37:32 admin systemd: Dependency failed for Network Manager Wait Online.
+Mar  3 11:37:32 admin systemd: Job NetworkManager-wait-online.service/start failed with result 'dependency'.
+Mar  3 11:37:32 admin systemd: Starting LSB: Bring up/down networking...
+Mar  3 11:37:32 admin systemd: Started irqbalance daemon.
+Mar  3 11:37:32 admin systemd: Starting irqbalance daemon...
+Mar  3 11:37:32 admin systemd: Starting RPC bind service...
+Mar  3 11:37:32 admin systemd: Started Daily Cleanup of Temporary Directories.
+Mar  3 11:37:32 admin systemd: Starting Daily Cleanup of Temporary Directories.
+Mar  3 11:37:32 admin systemd: Reached target Timers.
+Mar  3 11:37:32 admin systemd: Starting Timers.
+Mar  3 11:37:32 admin systemd: Started Generate rndc key for BIND (DNS).
+Mar  3 11:37:32 admin systemd: Started Dump dmesg to /var/log/dmesg.
+Mar  3 11:37:32 admin systemd-logind: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  3 11:37:32 admin systemd-logind: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  3 11:37:32 admin systemd-logind: Watching system buttons on /dev/input/event4 (Video Bus)
+Mar  3 11:37:32 admin systemd-logind: New seat seat0.
+Mar  3 11:37:32 admin systemd: Started Login Service.
+Mar  3 11:37:32 admin systemd: Started RPC bind service.
+Mar  3 11:37:32 admin /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Mar  3 11:37:32 admin systemd: Started Network Time Service.
+Mar  3 11:37:32 admin systemd: Started GSSAPI Proxy Daemon.
+Mar  3 11:37:32 admin systemd: Reached target NFS client services.
+Mar  3 11:37:32 admin systemd: Starting NFS client services.
+Mar  3 11:37:32 admin systemd: Started Authorization Manager.
+Mar  3 11:37:32 admin ntpd[672]: proto: precision = 0.066 usec
+Mar  3 11:37:32 admin ntpd[672]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+Mar  3 11:37:32 admin ntpd[672]: line 18 column 21 syntax error, unexpected T_String, expecting T_EOC
+Mar  3 11:37:32 admin ntpd[672]: syntax error in /etc/ntp.conf line 18, column 21
+Mar  3 11:37:32 admin ntpd[672]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar  3 11:37:32 admin ntpd[672]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar  3 11:37:32 admin ntpd[672]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar  3 11:37:32 admin ntpd[672]: Listen normally on 3 lo ::1 UDP 123
+Mar  3 11:37:32 admin ntpd[672]: Listening on routing socket on fd #20 for interface updates
+Mar  3 11:37:32 admin ntpd[672]: Deferring DNS for 0.centos.pool.ntp.org 1
+Mar  3 11:37:32 admin ntpd[672]: Deferring DNS for 1.centos.pool.ntp.org 1
+Mar  3 11:37:32 admin ntpd[672]: Deferring DNS for 2.centos.pool.ntp.org 1
+Mar  3 11:37:32 admin ntpd[672]: Deferring DNS for 3.centos.pool.ntp.org 1
+Mar  3 11:37:32 admin ntpd[672]: 0.0.0.0 c016 06 restart
+Mar  3 11:37:32 admin ntpd[672]: 0.0.0.0 c012 02 freq_set kernel 30.189 PPM
+Mar  3 11:37:33 admin openibd: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[796]: openibd: ERROR: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:33 admin network: Bringing up loopback interface:  [  OK  ]
+Mar  3 11:37:33 admin openibd: Module mlx4_ib belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[849]: openibd: ERROR: Module mlx4_ib belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:33 admin kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Mar  3 11:37:33 admin kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  3 11:37:33 admin kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Mar  3 11:37:33 admin openibd: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[876]: openibd: ERROR: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:33 admin openibd: Module mlx4_en belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[883]: openibd: ERROR: Module mlx4_en belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:33 admin openibd: Module mlx5_core belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[890]: openibd: ERROR: Module mlx5_core belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:33 admin openibd: Module mlx5_ib belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[897]: openibd: ERROR: Module mlx5_ib belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:33 admin lvm: 2 logical volume(s) in volume group "centos" now active
+Mar  3 11:37:33 admin systemd: Started LVM2 PV scan on device 8:2.
+Mar  3 11:37:33 admin openibd: Module ib_umad belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[908]: openibd: ERROR: Module ib_umad belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:33 admin openibd: Module ib_uverbs belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:33 admin logger[915]: openibd: ERROR: Module ib_uverbs belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:34 admin openibd: Module ib_ipoib belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:34 admin logger[922]: openibd: ERROR: Module ib_ipoib belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:34 admin openibd: Loading HCA driver and Access Layer:[  OK  ]
+Mar  3 11:37:34 admin openibd: Module rdma_cm belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:34 admin logger[931]: openibd: ERROR: Module rdma_cm belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:34 admin openibd: Module ib_ucm belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:34 admin logger[938]: openibd: ERROR: Module ib_ucm belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:34 admin openibd: Module rdma_ucm belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  3 11:37:34 admin logger[945]: openibd: ERROR: Module rdma_ucm belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  3 11:37:34 admin systemd: openibd.service: main process exited, code=exited, status=3/NOTIMPLEMENTED
+Mar  3 11:37:34 admin systemd: Failed to start openibd - configure Mellanox devices.
+Mar  3 11:37:34 admin systemd: Unit openibd.service entered failed state.
+Mar  3 11:37:34 admin systemd: openibd.service failed.
+Mar  3 11:37:34 admin systemd: Reached target Remote File Systems (Pre).
+Mar  3 11:37:34 admin systemd: Starting Remote File Systems (Pre).
+Mar  3 11:37:34 admin systemd: Reached target Remote File Systems.
+Mar  3 11:37:34 admin systemd: Starting Remote File Systems.
+Mar  3 11:37:34 admin systemd: Starting Permit User Sessions...
+Mar  3 11:37:34 admin systemd: Started Permit User Sessions.
+Mar  3 11:37:34 admin systemd: Starting Terminate Plymouth Boot Screen...
+Mar  3 11:37:34 admin systemd: Started Command Scheduler.
+Mar  3 11:37:34 admin systemd: Starting Command Scheduler...
+Mar  3 11:37:34 admin systemd: Starting Wait for Plymouth Boot Screen to Quit...
+Mar  3 11:37:34 admin systemd: Received SIGRTMIN+21 from PID 269 (plymouthd).
+Mar  3 11:37:34 admin systemd: Started Terminate Plymouth Boot Screen.
+Mar  3 11:37:34 admin systemd: Started Wait for Plymouth Boot Screen to Quit.
+Mar  3 11:37:34 admin systemd: Started Getty on tty1.
+Mar  3 11:37:34 admin systemd: Starting Getty on tty1...
+Mar  3 11:37:34 admin systemd: Reached target Login Prompts.
+Mar  3 11:37:34 admin systemd: Starting Login Prompts.
+Mar  3 11:37:34 admin kernel: floppy0: no floppy controllers found
+Mar  3 11:37:34 admin kernel: work still pending
+Mar  3 11:37:34 admin ntpd_intres[687]: host name not found: 0.centos.pool.ntp.org
+Mar  3 11:37:34 admin ntpd_intres[687]: host name not found: 1.centos.pool.ntp.org
+Mar  3 11:37:34 admin ntpd_intres[687]: host name not found: 2.centos.pool.ntp.org
+Mar  3 11:37:34 admin ntpd_intres[687]: host name not found: 3.centos.pool.ntp.org
+Mar  3 11:37:36 admin ntpd[672]: Listen normally on 4 enp0s8 fe80::a00:27ff:fe36:9b UDP 123
+Mar  3 11:37:37 admin network: Bringing up interface enp0s8:  [  OK  ]
+Mar  3 11:37:37 admin network: Bringing up interface eth0:
+Mar  3 11:37:37 admin dhclient[1032]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4 (xid=0x13232d3)
+Mar  3 11:37:37 admin dhclient[1032]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x13232d3)
+Mar  3 11:37:37 admin dhclient[1032]: DHCPOFFER from 10.0.2.2
+Mar  3 11:37:37 admin dhclient[1032]: DHCPACK from 10.0.2.2 (xid=0x13232d3)
+Mar  3 11:37:38 admin ntpd_intres[687]: host name not found: 0.centos.pool.ntp.org
+Mar  3 11:37:38 admin ntpd_intres[687]: host name not found: 1.centos.pool.ntp.org
+Mar  3 11:37:38 admin ntpd_intres[687]: host name not found: 2.centos.pool.ntp.org
+Mar  3 11:37:38 admin ntpd_intres[687]: host name not found: 3.centos.pool.ntp.org
+Mar  3 11:37:39 admin dhclient[1032]: bound to 10.0.2.15 -- renewal in 37285 seconds.
+Mar  3 11:37:39 admin network: Determining IP information for eth0... done.
+Mar  3 11:37:39 admin network: [  OK  ]
+Mar  3 11:37:39 admin network: Bringing up interface eth1:  ERROR    : [/etc/sysconfig/network-scripts/ifup-eth] Device eth1 does not seem to be present, delaying initialization.
+Mar  3 11:37:39 admin /etc/sysconfig/network-scripts/ifup-eth: Device eth1 does not seem to be present, delaying initialization.
+Mar  3 11:37:39 admin network: [FAILED]
+Mar  3 11:37:39 admin systemd: network.service: control process exited, code=exited status=1
+Mar  3 11:37:39 admin systemd: Failed to start LSB: Bring up/down networking.
+Mar  3 11:37:39 admin systemd: Unit network.service entered failed state.
+Mar  3 11:37:39 admin systemd: network.service failed.
+Mar  3 11:37:39 admin systemd: Reached target Network.
+Mar  3 11:37:39 admin systemd: Starting Network.
+Mar  3 11:37:39 admin systemd: Starting NIS/YP (Network Information Service) Server...
+Mar  3 11:37:39 admin systemd: Starting NIS/YP (Network Information Service) Users Passwords Change Server...
+Mar  3 11:37:39 admin systemd: Starting Xinetd A Powerful Replacement For Inetd...
+Mar  3 11:37:39 admin systemd: Starting MUNGE authentication service...
+Mar  3 11:37:39 admin systemd: Starting System Logging Service...
+Mar  3 11:37:39 admin systemd: Starting NFS Mount Daemon...
+Mar  3 11:37:39 admin systemd: Starting Dynamic System Tuning Daemon...
+Mar  3 11:37:39 admin systemd: Starting Berkeley Internet Name Domain (DNS)...
+Mar  3 11:37:39 admin systemd: Starting HP System Health Monitor...
+Mar  3 11:37:39 admin systemd: Starting OpenSSH server daemon...
+Mar  3 11:37:39 admin systemd: Starting Postfix Mail Transport Agent...
+Mar  3 11:37:39 admin systemd: Reached target Network is Online.
+Mar  3 11:37:39 admin systemd: Starting Network is Online.
+Mar  3 11:37:39 admin systemd: Starting OpenLDAP Server Daemon...
+Mar  3 11:37:39 admin systemd: Starting Crash recovery kernel arming...
+Mar  3 11:37:39 admin systemd: Starting Automounts filesystems on demand...
+Mar  3 11:37:39 admin systemd: Starting DHCPv4 Server Daemon...
+Mar  3 11:37:39 admin systemd: Starting NIS/YP (Network Information Service) Maps Transferring Accelerator...
+Mar  3 11:37:39 admin systemd: Starting The Salt Minion...
+Mar  3 11:37:39 admin systemd: Starting The Salt Master Server...
+Mar  3 11:37:40 admin yppasswdd-pre-setdomain: Setting NIS domain: 'bird' (environment variable)
+Mar  3 11:37:40 admin systemd: PID file /var/run/xinetd.pid not readable (yet?) after start.
+Mar  3 11:37:40 admin systemd: Started Xinetd A Powerful Replacement For Inetd.
+Mar  3 11:37:40 admin systemd: Started NIS/YP (Network Information Service) Maps Transferring Accelerator.
+Mar  3 11:37:40 admin systemd: Started NIS/YP (Network Information Service) Server.
+Mar  3 11:37:40 admin systemd: Started NIS/YP (Network Information Service) Users Passwords Change Server.
+Mar  3 11:37:40 admin dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+Mar  3 11:37:40 admin dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+Mar  3 11:37:40 admin dhcpd: All rights reserved.
+Mar  3 11:37:40 admin dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+Mar  3 11:37:40 admin hp-health.sh: Trying to identify the Product Name.../usr/lib/systemd/scripts/hp-health.sh: line 464: [: : integer expression expected
+Mar  3 11:37:40 admin hp-health.sh: ERROR: This server is NOT supported!
+Mar  3 11:37:40 admin xinetd[1211]: xinetd Version 2.3.15 started with libwrap loadavg labeled-networking options compiled in.
+Mar  3 11:37:40 admin xinetd[1211]: Started working: 1 available service
+Mar  3 11:37:40 admin bash: zone localhost/IN: loaded serial 1
+Mar  3 11:37:40 admin bash: zone 0.0.127.in-addr.arpa/IN: loaded serial 1
+Mar  3 11:37:40 admin bash: zone ipmi.cluster/IN: loaded serial 20170126
+Mar  3 11:37:40 admin bash: zone internal.cluster/IN: loaded serial 20170126
+Mar  3 11:37:40 admin systemd: PID file /var/run/sshd.pid not readable (yet?) after start.
+Mar  3 11:37:40 admin bash: zone ipoib.cluster/IN: loaded serial 20170126
+Mar  3 11:37:40 admin systemd: Started OpenSSH server daemon.
+Mar  3 11:37:40 admin bash: zone 0.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  3 11:37:40 admin bash: zone 64.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  3 11:37:40 admin bash: zone 128.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  3 11:37:40 admin dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+Mar  3 11:37:40 admin dhcpd: Wrote 0 deleted host decls to leases file.
+Mar  3 11:37:40 admin dhcpd: Wrote 0 new dynamic host decls to leases file.
+Mar  3 11:37:40 admin dhcpd: Wrote 0 leases to leases file.
+Mar  3 11:37:40 admin dhcpd: Listening on LPF/enp0s8/08:00:27:36:00:9b/172.16.0.0/18
+Mar  3 11:37:40 admin dhcpd: Sending on   LPF/enp0s8/08:00:27:36:00:9b/172.16.0.0/18
+Mar  3 11:37:40 admin dhcpd: 
+Mar  3 11:37:40 admin dhcpd: No subnet declaration for eth0 (10.0.2.15).
+Mar  3 11:37:40 admin systemd: Started DHCPv4 Server Daemon.
+Mar  3 11:37:40 admin dhcpd: ** Ignoring requests on eth0.  If this is not what
+Mar  3 11:37:40 admin dhcpd:   you want, please write a subnet declaration
+Mar  3 11:37:40 admin dhcpd:   in your dhcpd.conf file for the network segment
+Mar  3 11:37:40 admin dhcpd:   to which interface eth0 is attached. **
+Mar  3 11:37:40 admin dhcpd: 
+Mar  3 11:37:40 admin dhcpd: Sending on   Socket/fallback/fallback-net
+Mar  3 11:37:40 admin hp-health.sh: Error: No supported management controller found
+Mar  3 11:37:40 admin systemd: hp-health.service: control process exited, code=exited status=1
+Mar  3 11:37:40 admin systemd: Failed to start HP System Health Monitor.
+Mar  3 11:37:40 admin systemd: Unit hp-health.service entered failed state.
+Mar  3 11:37:40 admin systemd: hp-health.service failed.
+Mar  3 11:37:40 admin systemd: Starting Starts hp asrd (HP ...)...
+Mar  3 11:37:40 admin systemd: Started NFS Mount Daemon.
+Mar  3 11:37:40 admin named[1287]: starting BIND 9.9.4-RedHat-9.9.4-38.el7_3.2 -u named
+Mar  3 11:37:40 admin named[1287]: built with '--build=x86_64-redhat-linux-gnu' '--host=x86_64-redhat-linux-gnu' '--program-prefix=' '--disable-dependency-tracking' '--prefix=/usr' '--exec-prefix=/usr' '--bindir=/usr/bin' '--sbindir=/usr/sbin' '--sysconfdir=/etc' '--datadir=/usr/share' '--includedir=/usr/include' '--libdir=/usr/lib64' '--libexecdir=/usr/libexec' '--sharedstatedir=/var/lib' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--with-libtool' '--localstatedir=/var' '--enable-threads' '--with-geoip' '--enable-ipv6' '--enable-filter-aaaa' '--enable-rrl' '--with-pic' '--disable-static' '--disable-openssl-version-check' '--enable-exportlib' '--with-export-libdir=/usr/lib64' '--with-export-includedir=/usr/include' '--includedir=/usr/include/bind9' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib64/pkcs11/libsofthsm2.so' '--with-dlopen=yes' '--with-dlz-ldap=yes' '--with-dlz-postgres=yes' '--with-dlz-mysql=yes' '--with-dlz-filesystem=yes' '--with-dlz-bdb=yes' '--with-gssapi=yes' '--disable-isc-spnego' '--enable-fixed-rrset' '--with-docbook-xsl=/usr/share/sgml/docbook/xsl-stylesheets' 'build_alias=x86_64-redhat-linux-gnu' 'host_alias=x86_64-redhat-linux-gnu' 'CFLAGS= -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' 'LDFLAGS=-Wl,-z,relro ' 'CPPFLAGS= -DDIG_SIGCHASE'
+Mar  3 11:37:40 admin named[1287]: ----------------------------------------------------
+Mar  3 11:37:40 admin named[1287]: BIND 9 is maintained by Internet Systems Consortium,
+Mar  3 11:37:40 admin named[1287]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Mar  3 11:37:40 admin named[1287]: corporation.  Support and training for BIND 9 are
+Mar  3 11:37:40 admin named[1287]: available at https://www.isc.org/support
+Mar  3 11:37:40 admin named[1287]: ----------------------------------------------------
+Mar  3 11:37:40 admin named[1287]: adjusted limit on open files from 4096 to 1048576
+Mar  3 11:37:40 admin named[1287]: found 1 CPU, using 1 worker thread
+Mar  3 11:37:40 admin named[1287]: using 1 UDP listener per interface
+Mar  3 11:37:40 admin named[1287]: using up to 4096 sockets
+Mar  3 11:37:40 admin rpc.mountd[1288]: Version 1.3.0 starting
+Mar  3 11:37:40 admin hp-asrd.sh: hpasrd 1
+Mar  3 11:37:40 admin systemd: Started Starts hp asrd (HP ...).
+Mar  3 11:37:40 admin named[1287]: loading configuration from '/etc/named.conf'
+Mar  3 11:37:40 admin named[1287]: initializing GeoIP Country (IPv4) (type 1) DB
+Mar  3 11:37:40 admin named[1287]: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind
+Mar  3 11:37:40 admin named[1287]: initializing GeoIP Country (IPv6) (type 12) DB
+Mar  3 11:37:40 admin named[1287]: GEO-106FREE 20160607 Build 1 Copy
+Mar  3 11:37:40 admin named[1287]: GeoIP City (IPv4) (type 2) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP City (IPv4) (type 6) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP City (IPv6) (type 30) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP City (IPv6) (type 31) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP Region (type 3) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP Region (type 7) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP ISP (type 4) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP Org (type 5) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP AS (type 9) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP Domain (type 11) DB not available
+Mar  3 11:37:40 admin named[1287]: GeoIP NetSpeed (type 10) DB not available
+Mar  3 11:37:40 admin named[1287]: using default UDP/IPv4 port range: [1024, 65535]
+Mar  3 11:37:40 admin named[1287]: using default UDP/IPv6 port range: [1024, 65535]
+Mar  3 11:37:40 admin named[1287]: listening on IPv6 interfaces, port 53
+Mar  3 11:37:40 admin named[1287]: listening on IPv4 interface lo, 127.0.0.1#53
+Mar  3 11:37:40 admin named[1287]: listening on IPv4 interface eth0, 10.0.2.15#53
+Mar  3 11:37:40 admin named[1287]: listening on IPv4 interface enp0s8, 172.16.0.1#53
+Mar  3 11:37:40 admin named[1287]: generating session key for dynamic DNS
+Mar  3 11:37:40 admin named[1287]: sizing zone task pool based on 8 zones
+Mar  3 11:37:40 admin named[1287]: zone 'ipmi.cluster' allows updates by IP address, which is insecure
+Mar  3 11:37:40 admin named[1287]: zone 'internal.cluster' allows updates by IP address, which is insecure
+Mar  3 11:37:40 admin named[1287]: zone 'ipoib.cluster' allows updates by IP address, which is insecure
+Mar  3 11:37:40 admin named[1287]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Mar  3 11:37:40 admin named[1287]: command channel listening on 127.0.0.1#953
+Mar  3 11:37:40 admin named[1287]: command channel listening on ::1#953
+Mar  3 11:37:40 admin named[1287]: managed-keys-zone: loaded serial 0
+Mar  3 11:37:40 admin named[1287]: zone 0.0.127.in-addr.arpa/IN: loaded serial 1
+Mar  3 11:37:40 admin named[1287]: zone 0.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  3 11:37:40 admin named[1287]: zone 128.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  3 11:37:40 admin named[1287]: zone 64.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  3 11:37:40 admin named[1287]: zone internal.cluster/IN: loaded serial 20170126
+Mar  3 11:37:40 admin named[1287]: zone ipmi.cluster/IN: loaded serial 20170126
+Mar  3 11:37:40 admin named[1287]: zone ipoib.cluster/IN: loaded serial 20170126
+Mar  3 11:37:40 admin named[1287]: zone localhost/IN: loaded serial 1
+Mar  3 11:37:40 admin named[1287]: all zones loaded
+Mar  3 11:37:40 admin systemd: Started Berkeley Internet Name Domain (DNS).
+Mar  3 11:37:40 admin systemd: Reached target Host and Network Name Lookups.
+Mar  3 11:37:40 admin systemd: Starting Host and Network Name Lookups.
+Mar  3 11:37:40 admin systemd: Starting NFS status monitor for NFSv2/3 locking....
+Mar  3 11:37:40 admin named[1287]: running
+Mar  3 11:37:40 admin systemd: Starting The Apache HTTP Server...
+Mar  3 11:37:40 admin systemd: Starting Squid caching proxy...
+Mar  3 11:37:40 admin rpc.statd[1420]: Version 1.3.0 starting
+Mar  3 11:37:40 admin rpc.statd[1420]: Flags: TI-RPC
+Mar  3 11:37:40 admin systemd: Started Dynamic System Tuning Daemon.
+Mar  3 11:37:40 admin systemd: Started The Salt Minion.
+Mar  3 11:37:41 admin systemd: Started NFS status monitor for NFSv2/3 locking..
+Mar  3 11:37:41 admin systemd: Starting NFS server and services...
+Mar  3 11:37:41 admin systemd: Started Squid caching proxy.
+Mar  3 11:37:41 admin squid[1556]: Squid Parent: will start 1 kids
+Mar  3 11:37:41 admin squid[1556]: Squid Parent: (squid-1) process 1565 started
+Mar  3 11:37:41 admin kernel: NFSD: starting 90-second grace period (net ffffffff81a9cd80)
+Mar  3 11:37:41 admin systemd: Started NFS server and services.
+Mar  3 11:37:41 admin systemd: Starting Notify NFS peers of a restart...
+Mar  3 11:37:41 admin sm-notify[1617]: Version 1.3.0 starting
+Mar  3 11:37:41 admin systemd: Started Notify NFS peers of a restart.
+Mar  3 11:37:41 admin ntpd[672]: Listen normally on 5 eth0 10.0.2.15 UDP 123
+Mar  3 11:37:41 admin ntpd[672]: Listen normally on 6 enp0s8 172.16.0.1 UDP 123
+Mar  3 11:37:41 admin ntpd[672]: Listen normally on 7 eth0 fe80::a00:27ff:fe6a:e1e9 UDP 123
+Mar  3 11:37:42 admin systemd: Started The Apache HTTP Server.
+Mar  3 11:37:42 admin systemd: Started Postfix Mail Transport Agent.
+Mar  3 11:37:43 admin systemd: Started OpenLDAP Server Daemon.
+Mar  3 11:37:43 admin systemd: Starting Naming services LDAP client daemon....
+Mar  3 11:37:43 admin systemd: PID file /var/run/nslcd/nslcd.pid not readable (yet?) after start.
+Mar  3 11:37:43 admin nslcd[2426]: version 0.8.13 starting
+Mar  3 11:37:43 admin nslcd[2426]: accepting connections
+Mar  3 11:37:43 admin systemd: Started Naming services LDAP client daemon..
+Mar  3 11:37:43 admin nslcd[2426]: [8b4567] <passwd(all)> (re)loading /etc/nsswitch.conf
+Mar  3 11:37:43 admin systemd: Started The Salt Master Server.
+Mar  3 11:37:43 admin systemd: Created slice user-0.slice.
+Mar  3 11:37:43 admin systemd: Starting user-0.slice.
+Mar  3 11:37:43 admin systemd: Started Session 1 of user root.
+Mar  3 11:37:43 admin systemd-logind: New session 1 of user root.
+Mar  3 11:37:43 admin systemd: Starting Session 1 of user root.
+Mar  3 11:37:43 admin ntpd_intres[687]: DNS 0.centos.pool.ntp.org -> 45.55.102.31
+Mar  3 11:37:43 admin ntpd_intres[687]: DNS 1.centos.pool.ntp.org -> 208.75.89.4
+Mar  3 11:37:44 admin ntpd_intres[687]: DNS 2.centos.pool.ntp.org -> 74.104.167.114
+Mar  3 11:37:44 admin ntpd_intres[687]: DNS 3.centos.pool.ntp.org -> 128.138.141.172
+Mar  3 11:37:49 admin systemd: Started MUNGE authentication service.
+Mar  3 11:37:49 admin systemd: Starting LSB: slurm daemon management...
+Mar  3 11:37:49 admin slurm: Could not find /etc/slurm/slurm.conf. Bad path?
+Mar  3 11:37:49 admin systemd: slurm.service: control process exited, code=exited status=1
+Mar  3 11:37:49 admin systemd: Failed to start LSB: slurm daemon management.
+Mar  3 11:37:49 admin systemd: Unit slurm.service entered failed state.
+Mar  3 11:37:49 admin systemd: slurm.service failed.
+Mar  3 11:37:49 admin systemd: Started System Logging Service.
+Mar  3 11:37:49 admin systemd: Started Automounts filesystems on demand.
+Mar  3 11:37:49 admin systemd: Reached target Multi-User System.
+Mar  3 11:37:49 admin systemd: Starting Multi-User System.
+Mar  3 11:37:49 admin systemd: Starting Update UTMP about System Runlevel Changes...
+Mar  3 11:37:49 admin systemd: Started Update UTMP about System Runlevel Changes.
+Mar  3 11:37:52 admin ntpd[672]: 0.0.0.0 c61c 0c clock_step +1.946303 s
+Mar  3 11:37:52 admin ntpd[672]: 0.0.0.0 c614 04 freq_mode
+Mar  3 11:37:52 admin systemd: Time has been changed
+Mar  3 11:37:53 admin ntpd[672]: 0.0.0.0 c618 08 no_sys_peer
+Mar  3 11:37:57 admin kdumpctl: kexec: loaded kdump kernel
+Mar  3 11:37:57 admin kdumpctl: Starting kdump: [OK]
+Mar  3 11:37:57 admin systemd: Started Crash recovery kernel arming.
+Mar  3 11:37:57 admin systemd: Startup finished in 432ms (kernel) + 1.612s (initrd) + 24.884s (userspace) = 26.929s.
+Mar  3 11:52:36 admin systemd: Starting Cleanup of Temporary Directories...
+Mar  3 11:52:36 admin systemd: Started Cleanup of Temporary Directories.
+Mar  3 11:53:00 admin ntpd[672]: 0.0.0.0 c612 02 freq_set kernel 23.476 PPM
+Mar  3 11:53:00 admin ntpd[672]: 0.0.0.0 c615 05 clock_sync
+Mar  3 12:01:01 admin systemd: Started Session 2 of user root.
+Mar  3 12:01:01 admin systemd: Starting Session 2 of user root.
+Mar  3 12:15:40 admin ntpd[672]: 0.0.0.0 0618 08 no_sys_peer
+Mar  3 12:19:53 admin ntpd[672]: 0.0.0.0 0617 07 panic_stop +1046 s; set clock manually within 1000 s.
+Mar  3 12:19:53 admin systemd: ntpd.service: main process exited, code=exited, status=255/n/a
+Mar  3 12:19:53 admin systemd: Unit ntpd.service entered failed state.
+Mar  3 12:19:53 admin systemd: ntpd.service failed.
+Mar  3 12:41:01 admin systemd: Reloaded The Apache HTTP Server.
+Mar  3 13:00:17 admin systemd-logind: Removed session 1.
+Mar  3 13:00:17 admin systemd: Removed slice user-0.slice.
+Mar  3 13:00:17 admin systemd: Stopping user-0.slice.
+Mar  3 13:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 13:01:01 admin systemd: Starting user-0.slice.
+Mar  3 13:01:01 admin systemd: Started Session 3 of user root.
+Mar  3 13:01:01 admin systemd: Starting Session 3 of user root.
+Mar  3 13:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 13:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 14:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 14:01:01 admin systemd: Starting user-0.slice.
+Mar  3 14:01:01 admin systemd: Started Session 4 of user root.
+Mar  3 14:01:01 admin systemd: Starting Session 4 of user root.
+Mar  3 14:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 14:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 15:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 15:01:01 admin systemd: Starting user-0.slice.
+Mar  3 15:01:01 admin systemd: Started Session 5 of user root.
+Mar  3 15:01:01 admin systemd: Starting Session 5 of user root.
+Mar  3 15:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 15:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 16:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 16:01:01 admin systemd: Starting user-0.slice.
+Mar  3 16:01:01 admin systemd: Started Session 6 of user root.
+Mar  3 16:01:01 admin systemd: Starting Session 6 of user root.
+Mar  3 16:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 16:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 17:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 17:01:01 admin systemd: Starting user-0.slice.
+Mar  3 17:01:01 admin systemd: Started Session 7 of user root.
+Mar  3 17:01:01 admin systemd: Starting Session 7 of user root.
+Mar  3 17:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 17:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 18:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 18:01:01 admin systemd: Starting user-0.slice.
+Mar  3 18:01:01 admin systemd: Started Session 8 of user root.
+Mar  3 18:01:01 admin systemd: Starting Session 8 of user root.
+Mar  3 18:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 18:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 19:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 19:01:01 admin systemd: Starting user-0.slice.
+Mar  3 19:01:01 admin systemd: Started Session 9 of user root.
+Mar  3 19:01:01 admin systemd: Starting Session 9 of user root.
+Mar  3 19:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 19:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 20:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 20:01:01 admin systemd: Starting user-0.slice.
+Mar  3 20:01:01 admin systemd: Started Session 10 of user root.
+Mar  3 20:01:01 admin systemd: Starting Session 10 of user root.
+Mar  3 20:01:02 admin systemd: Removed slice user-0.slice.
+Mar  3 20:01:02 admin systemd: Stopping user-0.slice.
+Mar  3 21:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 21:01:01 admin systemd: Starting user-0.slice.
+Mar  3 21:01:01 admin systemd: Started Session 11 of user root.
+Mar  3 21:01:01 admin systemd: Starting Session 11 of user root.
+Mar  3 21:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 21:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 21:59:07 admin dhclient[1086]: DHCPREQUEST on eth0 to 10.0.2.2 port 67 (xid=0x13232d3)
+Mar  3 21:59:07 admin dhclient[1086]: DHCPACK from 10.0.2.2 (xid=0x13232d3)
+Mar  3 21:59:09 admin dhclient[1086]: bound to 10.0.2.15 -- renewal in 32848 seconds.
+Mar  3 22:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 22:01:01 admin systemd: Starting user-0.slice.
+Mar  3 22:01:01 admin systemd: Started Session 12 of user root.
+Mar  3 22:01:01 admin systemd: Starting Session 12 of user root.
+Mar  3 22:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 22:01:01 admin systemd: Stopping user-0.slice.
+Mar  3 23:01:01 admin systemd: Created slice user-0.slice.
+Mar  3 23:01:01 admin systemd: Starting user-0.slice.
+Mar  3 23:01:01 admin systemd: Started Session 13 of user root.
+Mar  3 23:01:01 admin systemd: Starting Session 13 of user root.
+Mar  3 23:01:01 admin systemd: Removed slice user-0.slice.
+Mar  3 23:01:01 admin systemd: Stopping user-0.slice.
+Mar  4 00:01:01 admin systemd: Created slice user-0.slice.
+Mar  4 00:01:01 admin systemd: Starting user-0.slice.
+Mar  4 00:01:01 admin systemd: Started Session 14 of user root.
+Mar  4 00:01:01 admin systemd: Starting Session 14 of user root.
+Mar  4 00:01:01 admin systemd: Removed slice user-0.slice.
+Mar  4 00:01:01 admin systemd: Stopping user-0.slice.
+Mar  4 01:01:01 admin systemd: Created slice user-0.slice.
+Mar  4 01:01:01 admin systemd: Starting user-0.slice.
+Mar  4 01:01:01 admin systemd: Started Session 15 of user root.
+Mar  4 01:01:01 admin systemd: Starting Session 15 of user root.
+Mar  4 01:01:01 admin systemd: Removed slice user-0.slice.
+Mar  4 01:01:01 admin systemd: Stopping user-0.slice.
+Mar  4 02:01:01 admin systemd: Created slice user-0.slice.
+Mar  4 02:01:01 admin systemd: Starting user-0.slice.
+Mar  4 02:01:01 admin systemd: Started Session 16 of user root.
+Mar  4 02:01:01 admin systemd: Starting Session 16 of user root.
+Mar  4 02:01:01 admin systemd: Removed slice user-0.slice.
+Mar  4 02:01:01 admin systemd: Stopping user-0.slice.
+Mar  4 03:01:01 admin systemd: Created slice user-0.slice.
+Mar  4 03:01:01 admin systemd: Starting user-0.slice.
+Mar  4 03:01:01 admin systemd: Started Session 17 of user root.
+Mar  4 03:01:01 admin systemd: Starting Session 17 of user root.
+Mar  4 03:25:01 admin systemd: Removed slice user-0.slice.
+Mar  4 03:25:01 admin systemd: Stopping user-0.slice.
+Mar  4 04:01:01 admin systemd: Created slice user-0.slice.
+Mar  4 04:01:01 admin systemd: Starting user-0.slice.
+Mar  4 04:01:01 admin systemd: Started Session 18 of user root.
+Mar  4 04:01:01 admin systemd: Starting Session 18 of user root.
+Mar  4 04:01:01 admin systemd: Removed slice user-0.slice.
+Mar  4 04:01:01 admin systemd: Stopping user-0.slice.
+Mar  4 05:01:01 admin systemd: Created slice user-0.slice.
+Mar  4 05:01:01 admin systemd: Starting user-0.slice.
+Mar  4 05:01:01 admin systemd: Started Session 19 of user root.
+Mar  4 05:01:01 admin systemd: Starting Session 19 of user root.
+Mar  4 05:01:01 admin systemd: Removed slice user-0.slice.
+Mar  4 05:01:01 admin systemd: Stopping user-0.slice.
+Mar  4 06:01:01 admin systemd: Created slice user-0.slice.
+Mar  4 06:01:01 admin systemd: Starting user-0.slice.
+Mar  4 06:01:01 admin systemd: Started Session 20 of user root.
+Mar  4 06:01:01 admin systemd: Starting Session 20 of user root.
+Mar  4 06:01:01 admin systemd: Removed slice user-0.slice.
+Mar  4 06:01:01 admin systemd: Stopping user-0.slice.
+Mar  7 12:59:41 admin rsyslogd: [origin software="rsyslogd" swVersion="7.4.7" x-pid="1193" x-info="http://www.rsyslog.com"] start
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys cpuset
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys cpu
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys cpuacct
+Mar  7 12:59:20 admin kernel: Linux version 3.10.0-514.6.1.el7.x86_64 (builder@kbuilder.dev.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) ) #1 SMP Wed Jan 18 13:06:36 UTC 2017
+Mar  7 12:59:20 admin kernel: Command line: BOOT_IMAGE=/vmlinuz-3.10.0-514.6.1.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=en_US.UTF-8
+Mar  7 12:59:20 admin kernel: e820: BIOS-provided physical RAM map:
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Mar  7 12:59:20 admin kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar  7 12:59:20 admin kernel: NX (Execute Disable) protection: active
+Mar  7 12:59:20 admin kernel: SMBIOS 2.5 present.
+Mar  7 12:59:20 admin kernel: Hypervisor detected: KVM
+Mar  7 12:59:20 admin kernel: e820: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Mar  7 12:59:20 admin kernel: x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Mar  7 12:59:20 admin kernel: CPU MTRRs all blank - virtualized system.
+Mar  7 12:59:20 admin kernel: found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffff88000009fff0]
+Mar  7 12:59:20 admin kernel: RAMDISK: [mem 0x35b8c000-0x36dbdfff]
+Mar  7 12:59:20 admin kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Mar  7 12:59:20 admin kernel: ACPI: XSDT 000000007fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar  7 12:59:20 admin kernel: ACPI: FACP 000000007fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar  7 12:59:20 admin kernel: ACPI: DSDT 000000007fff0470 0210F (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Mar  7 12:59:20 admin kernel: ACPI: FACS 000000007fff0200 00040
+Mar  7 12:59:20 admin kernel: ACPI: APIC 000000007fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar  7 12:59:20 admin kernel: ACPI: SSDT 000000007fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Mar  7 12:59:20 admin kernel: No NUMA configuration found
+Mar  7 12:59:20 admin kernel: Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Mar  7 12:59:20 admin kernel: Initmem setup node 0 [mem 0x00000000-0x7ffeffff]
+Mar  7 12:59:20 admin kernel:  NODE_DATA [mem 0x7ffc9000-0x7ffeffff]
+Mar  7 12:59:20 admin kernel: Reserving 161MB of memory at 688MB for crashkernel (System RAM: 2047MB)
+Mar  7 12:59:20 admin kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar  7 12:59:20 admin kernel: kvm-clock: cpu 0, msr 0:7ff79001, primary cpu clock
+Mar  7 12:59:20 admin kernel: kvm-clock: using sched offset of 8160591675 cycles
+Mar  7 12:59:20 admin kernel: Zone ranges:
+Mar  7 12:59:20 admin kernel:  DMA      [mem 0x00001000-0x00ffffff]
+Mar  7 12:59:20 admin kernel:  DMA32    [mem 0x01000000-0xffffffff]
+Mar  7 12:59:20 admin kernel:  Normal   empty
+Mar  7 12:59:20 admin kernel: Movable zone start for each node
+Mar  7 12:59:20 admin kernel: Early memory node ranges
+Mar  7 12:59:20 admin kernel:  node   0: [mem 0x00001000-0x0009efff]
+Mar  7 12:59:20 admin kernel:  node   0: [mem 0x00100000-0x7ffeffff]
+Mar  7 12:59:20 admin kernel: ACPI: PM-Timer IO Port: 0x4008
+Mar  7 12:59:20 admin kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar  7 12:59:20 admin kernel: ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Mar  7 12:59:20 admin kernel: IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Mar  7 12:59:20 admin kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar  7 12:59:20 admin kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Mar  7 12:59:20 admin kernel: Using ACPI (MADT) for SMP configuration information
+Mar  7 12:59:20 admin kernel: smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Mar  7 12:59:20 admin kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar  7 12:59:20 admin kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar  7 12:59:20 admin kernel: PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar  7 12:59:20 admin kernel: e820: [mem 0x80000000-0xfebfffff] available for PCI devices
+Mar  7 12:59:20 admin kernel: Booting paravirtualized kernel on KVM
+Mar  7 12:59:20 admin kernel: setup_percpu: NR_CPUS:5120 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Mar  7 12:59:20 admin kernel: PERCPU: Embedded 33 pages/cpu @ffff88007fc00000 s96728 r8192 d30248 u2097152
+Mar  7 12:59:20 admin kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 515961
+Mar  7 12:59:20 admin kernel: Policy zone: DMA32
+Mar  7 12:59:20 admin kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-514.6.1.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=en_US.UTF-8
+Mar  7 12:59:20 admin kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar  7 12:59:20 admin kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Mar  7 12:59:20 admin kernel: xsave: enabled xstate_bv 0x7, cntxt size 0x340 using standard form
+Mar  7 12:59:20 admin kernel: Memory: 1863464k/2097088k available (6765k kernel code, 392k absent, 233232k reserved, 4432k data, 1680k init)
+Mar  7 12:59:20 admin kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Mar  7 12:59:20 admin kernel: Hierarchical RCU implementation.
+Mar  7 12:59:20 admin kernel: #011RCU restricting CPUs from NR_CPUS=5120 to nr_cpu_ids=1.
+Mar  7 12:59:20 admin kernel: NR_IRQS:327936 nr_irqs:256 0
+Mar  7 12:59:20 admin kernel: Console: colour VGA+ 80x25
+Mar  7 12:59:20 admin kernel: console [tty0] enabled
+Mar  7 12:59:20 admin kernel: allocated 8388608 bytes of page_cgroup
+Mar  7 12:59:20 admin kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar  7 12:59:20 admin kernel: tsc: Detected 3099.998 MHz processor
+Mar  7 12:59:20 admin kernel: Calibrating delay loop (skipped) preset value.. 6199.99 BogoMIPS (lpj=3099998)
+Mar  7 12:59:20 admin kernel: pid_max: default: 32768 minimum: 301
+Mar  7 12:59:20 admin kernel: Security Framework initialized
+Mar  7 12:59:20 admin kernel: SELinux:  Initializing.
+Mar  7 12:59:20 admin kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Mar  7 12:59:20 admin kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Mar  7 12:59:20 admin kernel: Mount-cache hash table entries: 4096
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys memory
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys devices
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys freezer
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys net_cls
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys blkio
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys perf_event
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys hugetlb
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys pids
+Mar  7 12:59:20 admin kernel: Initializing cgroup subsys net_prio
+Mar  7 12:59:20 admin kernel: CPU: Physical Processor ID: 0
+Mar  7 12:59:20 admin kernel: mce: CPU supports 0 MCE banks
+Mar  7 12:59:20 admin kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar  7 12:59:20 admin kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0
+Mar  7 12:59:20 admin kernel: tlb_flushall_shift: 6
+Mar  7 12:59:20 admin kernel: Freeing SMP alternatives: 28k freed
+Mar  7 12:59:20 admin kernel: ACPI: Core revision 20130517
+Mar  7 12:59:20 admin kernel: ACPI: All ACPI Tables successfully acquired
+Mar  7 12:59:20 admin kernel: ftrace: allocating 25812 entries in 101 pages
+Mar  7 12:59:20 admin kernel: smpboot: APIC(0) Converting physical 0 to logical package 0
+Mar  7 12:59:20 admin kernel: smpboot: Max logical packages: 1
+Mar  7 12:59:20 admin kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar  7 12:59:20 admin kernel: smpboot: CPU0: Intel(R) Core(TM) i7-5557U CPU @ 3.10GHz (fam: 06, model: 3d, stepping: 04)
+Mar  7 12:59:20 admin kernel: APIC calibration not consistent with PM-Timer: 101ms instead of 100ms
+Mar  7 12:59:20 admin kernel: APIC delta adjusted to PM-Timer: 6369948 (6440561)
+Mar  7 12:59:20 admin kernel: Performance Events: unsupported p6 CPU model 61 no PMU driver, software events only.
+Mar  7 12:59:20 admin kernel: KVM setup paravirtual spinlock
+Mar  7 12:59:20 admin kernel: Brought up 1 CPUs
+Mar  7 12:59:20 admin kernel: smpboot: Total of 1 processors activated (6199.99 BogoMIPS)
+Mar  7 12:59:20 admin kernel: devtmpfs: initialized
+Mar  7 12:59:20 admin kernel: EVM: security.selinux
+Mar  7 12:59:20 admin kernel: EVM: security.ima
+Mar  7 12:59:20 admin kernel: EVM: security.capability
+Mar  7 12:59:20 admin kernel: atomic64 test passed for x86-64 platform with CX8 and with SSE
+Mar  7 12:59:20 admin kernel: pinctrl core: initialized pinctrl subsystem
+Mar  7 12:59:20 admin kernel: NET: Registered protocol family 16
+Mar  7 12:59:20 admin kernel: ACPI: bus type PCI registered
+Mar  7 12:59:20 admin kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar  7 12:59:20 admin kernel: PCI: Using configuration type 1 for base access
+Mar  7 12:59:20 admin kernel: ACPI: Added _OSI(Module Device)
+Mar  7 12:59:20 admin kernel: ACPI: Added _OSI(Processor Device)
+Mar  7 12:59:20 admin kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar  7 12:59:20 admin kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Mar  7 12:59:20 admin kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Mar  7 12:59:20 admin kernel: ACPI: Interpreter enabled
+Mar  7 12:59:20 admin kernel: ACPI: (supports S0 S5)
+Mar  7 12:59:20 admin kernel: ACPI: Using IOAPIC for interrupt routing
+Mar  7 12:59:20 admin kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar  7 12:59:20 admin kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar  7 12:59:20 admin kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar  7 12:59:20 admin kernel: acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Mar  7 12:59:20 admin kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar  7 12:59:20 admin kernel: PCI host bridge to bus 0000:00
+Mar  7 12:59:20 admin kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar  7 12:59:20 admin kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar  7 12:59:20 admin kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar  7 12:59:20 admin kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar  7 12:59:20 admin kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xffdfffff window]
+Mar  7 12:59:20 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar  7 12:59:20 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar  7 12:59:20 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar  7 12:59:20 admin kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar  7 12:59:20 admin kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Mar  7 12:59:20 admin kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Mar  7 12:59:20 admin kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Mar  7 12:59:20 admin kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Mar  7 12:59:20 admin kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Mar  7 12:59:20 admin kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Mar  7 12:59:20 admin kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Mar  7 12:59:20 admin kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Mar  7 12:59:20 admin kernel: vgaarb: loaded
+Mar  7 12:59:20 admin kernel: vgaarb: bridge control possible 0000:00:02.0
+Mar  7 12:59:20 admin kernel: SCSI subsystem initialized
+Mar  7 12:59:20 admin kernel: ACPI: bus type USB registered
+Mar  7 12:59:20 admin kernel: usbcore: registered new interface driver usbfs
+Mar  7 12:59:20 admin kernel: usbcore: registered new interface driver hub
+Mar  7 12:59:20 admin kernel: usbcore: registered new device driver usb
+Mar  7 12:59:20 admin kernel: PCI: Using ACPI for IRQ routing
+Mar  7 12:59:20 admin kernel: NetLabel: Initializing
+Mar  7 12:59:20 admin kernel: NetLabel:  domain hash size = 128
+Mar  7 12:59:20 admin kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Mar  7 12:59:20 admin kernel: NetLabel:  unlabeled traffic allowed by default
+Mar  7 12:59:20 admin kernel: Switched to clocksource kvm-clock
+Mar  7 12:59:20 admin kernel: pnp: PnP ACPI init
+Mar  7 12:59:20 admin kernel: ACPI: bus type PNP registered
+Mar  7 12:59:20 admin kernel: pnp: PnP ACPI: found 2 devices
+Mar  7 12:59:20 admin kernel: ACPI: bus type PNP unregistered
+Mar  7 12:59:20 admin kernel: NET: Registered protocol family 2
+Mar  7 12:59:20 admin kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Mar  7 12:59:20 admin kernel: TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Mar  7 12:59:20 admin kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Mar  7 12:59:20 admin kernel: TCP: reno registered
+Mar  7 12:59:20 admin kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Mar  7 12:59:20 admin kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Mar  7 12:59:20 admin kernel: NET: Registered protocol family 1
+Mar  7 12:59:20 admin kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar  7 12:59:20 admin kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar  7 12:59:20 admin kernel: Unpacking initramfs...
+Mar  7 12:59:20 admin kernel: Freeing initrd memory: 18632k freed
+Mar  7 12:59:20 admin kernel: RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 10737418240 ms ovfl timer
+Mar  7 12:59:20 admin kernel: RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Mar  7 12:59:20 admin kernel: RAPL PMU: hw unit of domain package 2^-0 Joules
+Mar  7 12:59:20 admin kernel: RAPL PMU: hw unit of domain dram 2^-0 Joules
+Mar  7 12:59:20 admin kernel: RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Mar  7 12:59:20 admin kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Mar  7 12:59:20 admin kernel: sha1_ssse3: Using AVX optimized SHA-1 implementation
+Mar  7 12:59:20 admin kernel: sha256_ssse3: Using AVX optimized SHA-256 implementation
+Mar  7 12:59:20 admin kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Mar  7 12:59:20 admin kernel: Initialise system trusted keyring
+Mar  7 12:59:20 admin kernel: audit: initializing netlink socket (disabled)
+Mar  7 12:59:20 admin kernel: type=2000 audit(1488909570.485:1): initialized
+Mar  7 12:59:20 admin kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar  7 12:59:20 admin kernel: zpool: loaded
+Mar  7 12:59:20 admin kernel: zbud: loaded
+Mar  7 12:59:20 admin kernel: VFS: Disk quotas dquot_6.5.2
+Mar  7 12:59:20 admin kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar  7 12:59:20 admin kernel: msgmni has been set to 3676
+Mar  7 12:59:20 admin kernel: Key type big_key registered
+Mar  7 12:59:20 admin kernel: NET: Registered protocol family 38
+Mar  7 12:59:20 admin kernel: Key type asymmetric registered
+Mar  7 12:59:20 admin kernel: Asymmetric key parser 'x509' registered
+Mar  7 12:59:20 admin kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Mar  7 12:59:20 admin kernel: io scheduler noop registered
+Mar  7 12:59:20 admin kernel: io scheduler deadline registered (default)
+Mar  7 12:59:20 admin kernel: io scheduler cfq registered
+Mar  7 12:59:20 admin kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar  7 12:59:20 admin kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar  7 12:59:20 admin kernel: ACPI: AC Adapter [AC] (on-line)
+Mar  7 12:59:20 admin kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar  7 12:59:20 admin kernel: ACPI: Power Button [PWRF]
+Mar  7 12:59:20 admin kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar  7 12:59:20 admin kernel: ACPI: Sleep Button [SLPF]
+Mar  7 12:59:20 admin kernel: GHES: HEST is not enabled!
+Mar  7 12:59:20 admin kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Mar  7 12:59:20 admin kernel: Non-volatile memory driver v1.3
+Mar  7 12:59:20 admin kernel: Linux agpgart interface v0.103
+Mar  7 12:59:20 admin kernel: crash memory driver: version 1.1
+Mar  7 12:59:20 admin kernel: rdac: device handler registered
+Mar  7 12:59:20 admin kernel: hp_sw: device handler registered
+Mar  7 12:59:20 admin kernel: emc: device handler registered
+Mar  7 12:59:20 admin kernel: alua: device handler registered
+Mar  7 12:59:20 admin kernel: libphy: Fixed MDIO Bus: probed
+Mar  7 12:59:20 admin kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar  7 12:59:20 admin kernel: ehci-pci: EHCI PCI platform driver
+Mar  7 12:59:20 admin kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar  7 12:59:20 admin kernel: ohci-pci: OHCI PCI platform driver
+Mar  7 12:59:20 admin kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Mar  7 12:59:20 admin kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Mar  7 12:59:20 admin kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0404000
+Mar  7 12:59:20 admin kernel: ACPI: Battery Slot [BAT0] (battery present)
+Mar  7 12:59:20 admin kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Mar  7 12:59:20 admin kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  7 12:59:20 admin kernel: usb usb1: Product: OHCI PCI host controller
+Mar  7 12:59:20 admin kernel: usb usb1: Manufacturer: Linux 3.10.0-514.6.1.el7.x86_64 ohci_hcd
+Mar  7 12:59:20 admin kernel: usb usb1: SerialNumber: 0000:00:06.0
+Mar  7 12:59:20 admin kernel: hub 1-0:1.0: USB hub found
+Mar  7 12:59:20 admin kernel: hub 1-0:1.0: 12 ports detected
+Mar  7 12:59:20 admin kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Mar  7 12:59:20 admin kernel: usbcore: registered new interface driver usbserial
+Mar  7 12:59:20 admin kernel: usbcore: registered new interface driver usbserial_generic
+Mar  7 12:59:20 admin kernel: usbserial: USB Serial support registered for generic
+Mar  7 12:59:20 admin kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Mar  7 12:59:20 admin kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar  7 12:59:20 admin kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar  7 12:59:20 admin kernel: mousedev: PS/2 mouse device common for all mice
+Mar  7 12:59:20 admin kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Mar  7 12:59:20 admin kernel: rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Mar  7 12:59:20 admin kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Mar  7 12:59:20 admin kernel: cpuidle: using governor menu
+Mar  7 12:59:20 admin kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Mar  7 12:59:20 admin kernel: usbcore: registered new interface driver usbhid
+Mar  7 12:59:20 admin kernel: usbhid: USB HID core driver
+Mar  7 12:59:20 admin kernel: drop_monitor: Initializing network drop monitor service
+Mar  7 12:59:20 admin kernel: TCP: cubic registered
+Mar  7 12:59:20 admin kernel: Initializing XFRM netlink socket
+Mar  7 12:59:20 admin kernel: NET: Registered protocol family 10
+Mar  7 12:59:20 admin kernel: NET: Registered protocol family 17
+Mar  7 12:59:20 admin kernel: microcode: CPU0 sig=0x306d4, pf=0x40, revision=0x0
+Mar  7 12:59:20 admin kernel: microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Mar  7 12:59:20 admin kernel: Loading compiled-in X.509 certificates
+Mar  7 12:59:20 admin kernel: Loaded X.509 cert 'CentOS Linux kpatch signing key: ea0413152cde1d98ebdca3fe6f0230904c9ef717'
+Mar  7 12:59:20 admin kernel: Loaded X.509 cert 'CentOS Linux Driver update signing key: 7f421ee0ab69461574bb358861dbe77762a4201b'
+Mar  7 12:59:20 admin kernel: Loaded X.509 cert 'CentOS Linux kernel signing key: ee3bc25344a671f6d7764a5cfd83ab4bafdbe74d'
+Mar  7 12:59:20 admin kernel: registered taskstats version 1
+Mar  7 12:59:20 admin kernel: Key type trusted registered
+Mar  7 12:59:20 admin kernel: Key type encrypted registered
+Mar  7 12:59:20 admin kernel: IMA: No TPM chip found, activating TPM-bypass!
+Mar  7 12:59:20 admin kernel: rtc_cmos rtc_cmos: setting system clock to 2017-03-07 17:59:20 UTC (1488909560)
+Mar  7 12:59:20 admin kernel: Freeing unused kernel memory: 1680k freed
+Mar  7 12:59:20 admin systemd[1]: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar  7 12:59:20 admin systemd[1]: Detected virtualization kvm.
+Mar  7 12:59:20 admin systemd[1]: Detected architecture x86-64.
+Mar  7 12:59:20 admin systemd[1]: Running in initial RAM disk.
+Mar  7 12:59:20 admin systemd[1]: Set hostname to <admin>.
+Mar  7 12:59:20 admin systemd[1]: Reached target Local File Systems.
+Mar  7 12:59:20 admin systemd[1]: Starting Local File Systems.
+Mar  7 12:59:20 admin systemd[1]: Reached target Swap.
+Mar  7 12:59:20 admin systemd[1]: Starting Swap.
+Mar  7 12:59:20 admin systemd[1]: Reached target Timers.
+Mar  7 12:59:20 admin systemd[1]: Starting Timers.
+Mar  7 12:59:20 admin systemd[1]: Created slice Root Slice.
+Mar  7 12:59:20 admin systemd[1]: Starting Root Slice.
+Mar  7 12:59:20 admin systemd[1]: Created slice System Slice.
+Mar  7 12:59:20 admin systemd[1]: Starting System Slice.
+Mar  7 12:59:20 admin systemd[1]: Reached target Slices.
+Mar  7 12:59:20 admin systemd[1]: Starting Slices.
+Mar  7 12:59:20 admin systemd[1]: Listening on Journal Socket.
+Mar  7 12:59:20 admin systemd[1]: Starting Journal Socket.
+Mar  7 12:59:20 admin systemd[1]: Starting Journal Service...
+Mar  7 12:59:20 admin systemd[1]: Starting Setup Virtual Console...
+Mar  7 12:59:20 admin systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Mar  7 12:59:20 admin systemd[1]: Starting dracut cmdline hook...
+Mar  7 12:59:20 admin systemd[1]: Listening on udev Control Socket.
+Mar  7 12:59:20 admin systemd[1]: Starting udev Control Socket.
+Mar  7 12:59:20 admin systemd[1]: Starting Apply Kernel Variables...
+Mar  7 12:59:20 admin systemd[1]: Listening on udev Kernel Socket.
+Mar  7 12:59:20 admin systemd[1]: Starting udev Kernel Socket.
+Mar  7 12:59:20 admin systemd[1]: Reached target Sockets.
+Mar  7 12:59:20 admin systemd[1]: Starting Sockets.
+Mar  7 12:59:20 admin systemd[1]: Started Create list of required static device nodes for the current kernel.
+Mar  7 12:59:20 admin systemd[1]: Started Apply Kernel Variables.
+Mar  7 12:59:20 admin systemd[1]: Starting Create Static Device Nodes in /dev...
+Mar  7 12:59:20 admin systemd[1]: Started Create Static Device Nodes in /dev.
+Mar  7 12:59:20 admin journal: Journal started
+Mar  7 12:59:20 admin systemd[1]: Started Journal Service.
+Mar  7 12:59:20 admin kernel: psmouse serio1: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+Mar  7 12:59:20 admin kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Mar  7 12:59:20 admin systemd: Started Setup Virtual Console.
+Mar  7 12:59:20 admin systemd: Started dracut cmdline hook.
+Mar  7 12:59:20 admin systemd: Starting dracut pre-udev hook...
+Mar  7 12:59:20 admin kernel: device-mapper: uevent: version 1.0.3
+Mar  7 12:59:20 admin kernel: device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Mar  7 12:59:20 admin systemd: Started dracut pre-udev hook.
+Mar  7 12:59:20 admin systemd: Starting udev Kernel Device Manager...
+Mar  7 12:59:20 admin systemd-udevd: starting version 219
+Mar  7 12:59:20 admin systemd: Started udev Kernel Device Manager.
+Mar  7 12:59:20 admin systemd: Starting udev Coldplug all Devices...
+Mar  7 12:59:20 admin systemd: Mounting Configuration File System...
+Mar  7 12:59:20 admin systemd: Mounted Configuration File System.
+Mar  7 12:59:20 admin kernel: FUJITSU Extended Socket Network Device Driver - version 1.1 - Copyright (c) 2015 FUJITSU LIMITED
+Mar  7 12:59:20 admin kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Mar  7 12:59:20 admin kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Mar  7 12:59:20 admin systemd: Started udev Coldplug all Devices.
+Mar  7 12:59:20 admin systemd: Starting Show Plymouth Boot Screen...
+Mar  7 12:59:20 admin systemd: Starting dracut initqueue hook...
+Mar  7 12:59:20 admin systemd: Reached target System Initialization.
+Mar  7 12:59:20 admin systemd: Starting System Initialization.
+Mar  7 12:59:20 admin systemd: Started Show Plymouth Boot Screen.
+Mar  7 12:59:20 admin systemd: Reached target Paths.
+Mar  7 12:59:20 admin systemd: Starting Paths.
+Mar  7 12:59:20 admin systemd: Started Forward Password Requests to Plymouth Directory Watch.
+Mar  7 12:59:20 admin systemd: Starting Forward Password Requests to Plymouth Directory Watch.
+Mar  7 12:59:20 admin systemd: Reached target Basic System.
+Mar  7 12:59:20 admin systemd: Starting Basic System.
+Mar  7 12:59:21 admin kernel: tsc: Refined TSC clocksource calibration: 3099.502 MHz
+Mar  7 12:59:21 admin kernel: e1000 0000:00:08.0 eth0: (PCI:33MHz:32-bit) 08:00:27:36:00:9b
+Mar  7 12:59:21 admin kernel: e1000 0000:00:08.0 eth0: Intel(R) PRO/1000 Network Connection
+Mar  7 12:59:21 admin kernel: scsi host0: ata_piix
+Mar  7 12:59:21 admin kernel: scsi host1: ata_piix
+Mar  7 12:59:21 admin kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Mar  7 12:59:21 admin kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Mar  7 12:59:21 admin kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Mar  7 12:59:21 admin kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Mar  7 12:59:21 admin kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Mar  7 12:59:21 admin kernel: scsi host2: ahci
+Mar  7 12:59:21 admin kernel: ata3: SATA max UDMA/133 abar m8192@0xf0440000 port 0xf0440100 irq 21
+Mar  7 12:59:21 admin kernel: virtio-pci 0000:00:03.0: virtio_pci: leaving for legacy driver
+Mar  7 12:59:21 admin kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Mar  7 12:59:21 admin kernel: ata2.00: configured for UDMA/33
+Mar  7 12:59:21 admin kernel: scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Mar  7 12:59:21 admin kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Mar  7 12:59:21 admin kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Mar  7 12:59:21 admin kernel: ata3.00: 41943040 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Mar  7 12:59:21 admin kernel: ata3.00: configured for UDMA/133
+Mar  7 12:59:21 admin kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Mar  7 12:59:21 admin kernel: sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Mar  7 12:59:21 admin kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Mar  7 12:59:21 admin kernel: sd 2:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+Mar  7 12:59:21 admin kernel: sd 2:0:0:0: [sda] Write Protect is off
+Mar  7 12:59:21 admin kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar  7 12:59:21 admin kernel: sda: sda1 sda2
+Mar  7 12:59:21 admin kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Mar  7 12:59:22 admin systemd: Found device /dev/mapper/centos-root.
+Mar  7 12:59:22 admin systemd: Starting File System Check on /dev/mapper/centos-root...
+Mar  7 12:59:22 admin systemd-fsck: /sbin/fsck.xfs: XFS file system.
+Mar  7 12:59:22 admin systemd: Started File System Check on /dev/mapper/centos-root.
+Mar  7 12:59:22 admin systemd: Started dracut initqueue hook.
+Mar  7 12:59:22 admin systemd: Reached target Remote File Systems (Pre).
+Mar  7 12:59:22 admin systemd: Starting Remote File Systems (Pre).
+Mar  7 12:59:22 admin systemd: Reached target Remote File Systems.
+Mar  7 12:59:22 admin systemd: Starting Remote File Systems.
+Mar  7 12:59:22 admin systemd: Mounting /sysroot...
+Mar  7 12:59:22 admin kernel: SGI XFS with ACLs, security attributes, no debug enabled
+Mar  7 12:59:22 admin kernel: XFS (dm-0): Mounting V4 Filesystem
+Mar  7 12:59:22 admin kernel: XFS (dm-0): Starting recovery (logdev: internal)
+Mar  7 12:59:22 admin kernel: XFS (dm-0): Ending recovery (logdev: internal)
+Mar  7 12:59:22 admin systemd: Mounted /sysroot.
+Mar  7 12:59:22 admin systemd: Reached target Initrd Root File System.
+Mar  7 12:59:22 admin systemd: Starting Initrd Root File System.
+Mar  7 12:59:22 admin systemd: Starting Reload Configuration from the Real Root...
+Mar  7 12:59:22 admin systemd: Reloading.
+Mar  7 12:59:22 admin systemd: Started Reload Configuration from the Real Root.
+Mar  7 12:59:22 admin systemd: Reached target Initrd File Systems.
+Mar  7 12:59:22 admin systemd: Starting Initrd File Systems.
+Mar  7 12:59:22 admin systemd: Reached target Initrd Default Target.
+Mar  7 12:59:22 admin systemd: Starting Initrd Default Target.
+Mar  7 12:59:22 admin systemd: Starting dracut pre-pivot and cleanup hook...
+Mar  7 12:59:22 admin systemd: Started dracut pre-pivot and cleanup hook.
+Mar  7 12:59:22 admin systemd: Starting Cleaning Up and Shutting Down Daemons...
+Mar  7 12:59:22 admin systemd: Stopped target Timers.
+Mar  7 12:59:22 admin systemd: Stopping Timers.
+Mar  7 12:59:22 admin systemd: Starting Plymouth switch root service...
+Mar  7 12:59:22 admin systemd: Stopped Cleaning Up and Shutting Down Daemons.
+Mar  7 12:59:22 admin systemd: Stopped dracut pre-pivot and cleanup hook.
+Mar  7 12:59:22 admin systemd: Stopping dracut pre-pivot and cleanup hook...
+Mar  7 12:59:22 admin systemd: Stopped target Remote File Systems.
+Mar  7 12:59:22 admin systemd: Stopping Remote File Systems.
+Mar  7 12:59:22 admin systemd: Stopped target Remote File Systems (Pre).
+Mar  7 12:59:22 admin systemd: Stopping Remote File Systems (Pre).
+Mar  7 12:59:22 admin systemd: Stopped dracut initqueue hook.
+Mar  7 12:59:22 admin systemd: Stopping dracut initqueue hook...
+Mar  7 12:59:22 admin systemd: Stopped target Initrd Default Target.
+Mar  7 12:59:22 admin systemd: Stopping Initrd Default Target.
+Mar  7 12:59:22 admin systemd: Stopped target Basic System.
+Mar  7 12:59:22 admin systemd: Stopping Basic System.
+Mar  7 12:59:22 admin systemd: Stopped target Paths.
+Mar  7 12:59:22 admin systemd: Stopping Paths.
+Mar  7 12:59:22 admin systemd: Stopped target System Initialization.
+Mar  7 12:59:22 admin systemd: Stopping System Initialization.
+Mar  7 12:59:22 admin systemd: Stopped udev Coldplug all Devices.
+Mar  7 12:59:22 admin systemd: Stopping udev Coldplug all Devices...
+Mar  7 12:59:22 admin systemd: Stopped target Swap.
+Mar  7 12:59:22 admin systemd: Stopping Swap.
+Mar  7 12:59:22 admin systemd: Stopped target Local File Systems.
+Mar  7 12:59:22 admin systemd: Stopping Local File Systems.
+Mar  7 12:59:22 admin systemd: Stopped Apply Kernel Variables.
+Mar  7 12:59:22 admin systemd: Stopping Apply Kernel Variables...
+Mar  7 12:59:22 admin systemd: Stopping udev Kernel Device Manager...
+Mar  7 12:59:22 admin systemd: Stopped target Sockets.
+Mar  7 12:59:22 admin systemd: Stopping Sockets.
+Mar  7 12:59:22 admin systemd: Stopped target Slices.
+Mar  7 12:59:22 admin systemd: Stopping Slices.
+Mar  7 12:59:22 admin systemd: Stopped udev Kernel Device Manager.
+Mar  7 12:59:22 admin systemd: Stopped Create Static Device Nodes in /dev.
+Mar  7 12:59:22 admin systemd: Stopping Create Static Device Nodes in /dev...
+Mar  7 12:59:22 admin systemd: Stopped Create list of required static device nodes for the current kernel.
+Mar  7 12:59:22 admin systemd: Stopping Create list of required static device nodes for the current kernel...
+Mar  7 12:59:22 admin systemd: Stopped dracut pre-udev hook.
+Mar  7 12:59:22 admin systemd: Stopping dracut pre-udev hook...
+Mar  7 12:59:22 admin systemd: Stopped dracut cmdline hook.
+Mar  7 12:59:22 admin systemd: Stopping dracut cmdline hook...
+Mar  7 12:59:22 admin systemd: Closed udev Kernel Socket.
+Mar  7 12:59:22 admin systemd: Stopping udev Kernel Socket.
+Mar  7 12:59:22 admin systemd: Closed udev Control Socket.
+Mar  7 12:59:22 admin systemd: Stopping udev Control Socket.
+Mar  7 12:59:22 admin systemd: Starting Cleanup udevd DB...
+Mar  7 12:59:22 admin systemd: Started Cleanup udevd DB.
+Mar  7 12:59:22 admin systemd: Reached target Switch Root.
+Mar  7 12:59:22 admin systemd: Starting Switch Root.
+Mar  7 12:59:22 admin systemd: Started Plymouth switch root service.
+Mar  7 12:59:22 admin systemd: Starting Switch Root...
+Mar  7 12:59:22 admin systemd: Switching root.
+Mar  7 12:59:22 admin journal: Journal stopped
+Mar  7 12:59:22 admin journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.9M free of 911.7M available → current limit 91.9M).
+Mar  7 12:59:22 admin journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.9M free of 911.7M available → current limit 91.9M).
+Mar  7 12:59:22 admin systemd-journald[88]: Received SIGTERM from PID 1 (systemd).
+Mar  7 12:59:22 admin kernel: SELinux:  Disabled at runtime.
+Mar  7 12:59:22 admin kernel: type=1404 audit(1488909562.580:2): selinux=0 auid=4294967295 ses=4294967295
+Mar  7 12:59:22 admin kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar  7 12:59:22 admin systemd[1]: Inserted module 'ip_tables'
+Mar  7 12:59:22 admin kernel: RPC: Registered named UNIX socket transport module.
+Mar  7 12:59:22 admin kernel: RPC: Registered udp transport module.
+Mar  7 12:59:22 admin kernel: RPC: Registered tcp transport module.
+Mar  7 12:59:22 admin kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Mar  7 12:59:22 admin journal: Journal started
+Mar  7 12:59:22 admin systemd: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar  7 12:59:22 admin systemd: Detected virtualization kvm.
+Mar  7 12:59:22 admin systemd: Detected architecture x86-64.
+Mar  7 12:59:22 admin kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Mar  7 12:59:22 admin systemd: Set hostname to <admin>.
+Mar  7 12:59:22 admin systemd: [/usr/lib/systemd/system/microcode.service:10] Trailing garbage, ignoring.
+Mar  7 12:59:22 admin systemd: microcode.service lacks both ExecStart= and ExecStop= setting. Refusing.
+Mar  7 12:59:22 admin systemd: Cannot add dependency job for unit microcode.service, ignoring: Unit is not loaded properly: Invalid argument.
+Mar  7 12:59:22 admin systemd: Starting Flush Journal to Persistent Storage...
+Mar  7 12:59:22 admin journal: Runtime journal is using 8.0M (max allowed 91.9M, trying to leave 137.9M free of 911.7M available → current limit 91.9M).
+Mar  7 12:59:22 admin systemd: Mounted NFSD configuration filesystem.
+Mar  7 12:59:22 admin systemd: Started Create Static Device Nodes in /dev.
+Mar  7 12:59:22 admin systemd: Starting udev Kernel Device Manager...
+Mar  7 12:59:22 admin systemd: Started Configure read-only root support.
+Mar  7 12:59:22 admin systemd: Started Flush Journal to Persistent Storage.
+Mar  7 12:59:22 admin systemd-udevd: starting version 219
+Mar  7 12:59:22 admin systemd: Started udev Coldplug all Devices.
+Mar  7 12:59:22 admin systemd: Started udev Kernel Device Manager.
+Mar  7 12:59:23 admin kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Mar  7 12:59:23 admin kernel: input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Mar  7 12:59:23 admin kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Mar  7 12:59:23 admin kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+Mar  7 12:59:23 admin kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Mar  7 12:59:23 admin kernel: input: PC Speaker as /devices/platform/pcspkr/input/input5
+Mar  7 12:59:23 admin kernel: AES CTR mode by8 optimization enabled
+Mar  7 12:59:23 admin kernel: alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+Mar  7 12:59:23 admin systemd: Found device VBOX_HARDDISK 1.
+Mar  7 12:59:23 admin systemd: Created slice system-lvm2\x2dpvscan.slice.
+Mar  7 12:59:23 admin systemd: Starting system-lvm2\x2dpvscan.slice.
+Mar  7 12:59:23 admin systemd: Starting LVM2 PV scan on device 8:2...
+Mar  7 12:59:23 admin lvm: WARNING: lvmetad is being updated, retrying (setup) for 10 more seconds.
+Mar  7 12:59:23 admin kernel: ppdev: user-space parallel port driver
+Mar  7 12:59:23 admin kernel: alg: No test for crc32 (crc32-pclmul)
+Mar  7 12:59:23 admin kernel: intel_rapl: no valid rapl domains found in package 0
+Mar  7 12:59:23 admin systemd: Found device /dev/mapper/centos-swap.
+Mar  7 12:59:23 admin systemd: Activating swap /dev/mapper/centos-swap...
+Mar  7 12:59:23 admin kernel: Adding 2097148k swap on /dev/mapper/centos-swap.  Priority:-1 extents:1 across:2097148k FS
+Mar  7 12:59:23 admin systemd: Activated swap /dev/mapper/centos-swap.
+Mar  7 12:59:23 admin systemd: Reached target Swap.
+Mar  7 12:59:23 admin systemd: Starting Swap.
+Mar  7 12:59:23 admin lvm: 2 logical volume(s) in volume group "centos" monitored
+Mar  7 12:59:23 admin systemd: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Mar  7 12:59:23 admin systemd: Reached target Local File Systems (Pre).
+Mar  7 12:59:23 admin systemd: Starting Local File Systems (Pre).
+Mar  7 12:59:23 admin systemd: Mounting /boot...
+Mar  7 12:59:23 admin kernel: XFS (sda1): Mounting V4 Filesystem
+Mar  7 12:59:23 admin kernel: snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+Mar  7 12:59:23 admin systemd: Reached target Sound Card.
+Mar  7 12:59:23 admin systemd: Starting Sound Card.
+Mar  7 12:59:23 admin kernel: XFS (sda1): Starting recovery (logdev: internal)
+Mar  7 12:59:23 admin kernel: XFS (sda1): Ending recovery (logdev: internal)
+Mar  7 12:59:23 admin systemd: Mounted /boot.
+Mar  7 12:59:23 admin systemd: Reached target Local File Systems.
+Mar  7 12:59:23 admin systemd: Starting Local File Systems.
+Mar  7 12:59:23 admin systemd: Starting Preprocess NFS configuration...
+Mar  7 12:59:23 admin systemd: Starting Tell Plymouth To Write Out Runtime Data...
+Mar  7 12:59:23 admin systemd: Starting openibd - configure Mellanox devices...
+Mar  7 12:59:23 admin systemd: Starting Import network configuration from initramfs...
+Mar  7 12:59:23 admin systemd: Started Preprocess NFS configuration.
+Mar  7 12:59:24 admin systemd: Starting NFSv4 ID-name mapping service...
+Mar  7 12:59:24 admin systemd: Started Tell Plymouth To Write Out Runtime Data.
+Mar  7 12:59:24 admin systemd: Started Import network configuration from initramfs.
+Mar  7 12:59:24 admin systemd: Starting Create Volatile Files and Directories...
+Mar  7 12:59:24 admin systemd: Started Create Volatile Files and Directories.
+Mar  7 12:59:24 admin systemd: Starting Security Auditing Service...
+Mar  7 12:59:24 admin systemd: Started NFSv4 ID-name mapping service.
+Mar  7 12:59:24 admin logger[597]: openibd: running in auto mode
+Mar  7 12:59:24 admin auditd[601]: Started dispatcher: /sbin/audispd pid: 613
+Mar  7 12:59:24 admin kernel: type=1305 audit(1488909564.093:3): audit_pid=601 old=0 auid=4294967295 ses=4294967295 res=1
+Mar  7 12:59:24 admin audispd: No plugins found, exiting
+Mar  7 12:59:24 admin augenrules: /sbin/augenrules: No change
+Mar  7 12:59:24 admin auditd[601]: Init complete, auditd 2.6.5 listening for events (startup state enable)
+Mar  7 12:59:24 admin augenrules: No rules
+Mar  7 12:59:24 admin augenrules: enabled 1
+Mar  7 12:59:24 admin augenrules: failure 1
+Mar  7 12:59:24 admin augenrules: pid 601
+Mar  7 12:59:24 admin augenrules: rate_limit 0
+Mar  7 12:59:24 admin augenrules: backlog_limit 320
+Mar  7 12:59:24 admin augenrules: lost 0
+Mar  7 12:59:24 admin augenrules: backlog 1
+Mar  7 12:59:24 admin systemd: Started Security Auditing Service.
+Mar  7 12:59:24 admin systemd: Starting Update UTMP about System Boot/Shutdown...
+Mar  7 12:59:24 admin systemd: Started Update UTMP about System Boot/Shutdown.
+Mar  7 12:59:24 admin systemd: Reached target System Initialization.
+Mar  7 12:59:24 admin systemd: Starting System Initialization.
+Mar  7 12:59:24 admin systemd: Listening on D-Bus System Message Bus Socket.
+Mar  7 12:59:24 admin systemd: Starting D-Bus System Message Bus Socket.
+Mar  7 12:59:24 admin systemd: Started Daily Cleanup of Temporary Directories.
+Mar  7 12:59:24 admin systemd: Starting Daily Cleanup of Temporary Directories.
+Mar  7 12:59:24 admin systemd: Reached target Timers.
+Mar  7 12:59:24 admin systemd: Starting Timers.
+Mar  7 12:59:24 admin systemd: Started Flexible branding.
+Mar  7 12:59:24 admin systemd: Starting Flexible branding.
+Mar  7 12:59:24 admin systemd: Reached target Paths.
+Mar  7 12:59:24 admin systemd: Starting Paths.
+Mar  7 12:59:24 admin systemd: Listening on RPCbind Server Activation Socket.
+Mar  7 12:59:24 admin systemd: Starting RPCbind Server Activation Socket.
+Mar  7 12:59:24 admin systemd: Reached target Sockets.
+Mar  7 12:59:24 admin systemd: Starting Sockets.
+Mar  7 12:59:24 admin systemd: Reached target Basic System.
+Mar  7 12:59:24 admin systemd: Starting Basic System.
+Mar  7 12:59:24 admin systemd: Started irqbalance daemon.
+Mar  7 12:59:24 admin systemd: Starting irqbalance daemon...
+Mar  7 12:59:24 admin systemd: Starting Authorization Manager...
+Mar  7 12:59:24 admin systemd: Starting Generate rndc key for BIND (DNS)...
+Mar  7 12:59:24 admin systemd: Starting Login Service...
+Mar  7 12:59:24 admin systemd: Starting Dump dmesg to /var/log/dmesg...
+Mar  7 12:59:24 admin systemd: Started D-Bus System Message Bus.
+Mar  7 12:59:24 admin /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Mar  7 12:59:24 admin systemd: Starting D-Bus System Message Bus...
+Mar  7 12:59:24 admin systemd: Dependency failed for Network Manager Wait Online.
+Mar  7 12:59:24 admin systemd: Job NetworkManager-wait-online.service/start failed with result 'dependency'.
+Mar  7 12:59:24 admin systemd: Starting Network Time Service...
+Mar  7 12:59:24 admin systemd: Starting GSSAPI Proxy Daemon...
+Mar  7 12:59:24 admin systemd: Starting LSB: Bring up/down networking...
+Mar  7 12:59:24 admin systemd: Starting RPC bind service...
+Mar  7 12:59:24 admin systemd: Started Generate rndc key for BIND (DNS).
+Mar  7 12:59:24 admin systemd: Started Dump dmesg to /var/log/dmesg.
+Mar  7 12:59:24 admin systemd-logind: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 12:59:24 admin systemd-logind: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 12:59:24 admin systemd-logind: Watching system buttons on /dev/input/event4 (Video Bus)
+Mar  7 12:59:24 admin systemd-logind: New seat seat0.
+Mar  7 12:59:24 admin systemd: Started Login Service.
+Mar  7 12:59:24 admin polkitd[626]: Started polkitd version 0.112
+Mar  7 12:59:24 admin systemd: Started Authorization Manager.
+Mar  7 12:59:24 admin systemd: Started RPC bind service.
+Mar  7 12:59:24 admin lvm: 2 logical volume(s) in volume group "centos" now active
+Mar  7 12:59:24 admin systemd: Started LVM2 PV scan on device 8:2.
+Mar  7 12:59:24 admin ntpd[637]: ntpd 4.2.6p5@1.2349-o Mon Feb  6 07:34:43 UTC 2017 (1)
+Mar  7 12:59:24 admin systemd: Started Network Time Service.
+Mar  7 12:59:24 admin ntpd[668]: proto: precision = 0.062 usec
+Mar  7 12:59:24 admin ntpd[668]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+Mar  7 12:59:24 admin ntpd[668]: line 18 column 21 syntax error, unexpected T_String, expecting T_EOC
+Mar  7 12:59:24 admin ntpd[668]: syntax error in /etc/ntp.conf line 18, column 21
+Mar  7 12:59:24 admin systemd: Started GSSAPI Proxy Daemon.
+Mar  7 12:59:24 admin systemd: Reached target NFS client services.
+Mar  7 12:59:24 admin systemd: Starting NFS client services.
+Mar  7 12:59:24 admin ntpd[668]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Mar  7 12:59:24 admin ntpd[668]: Listen and drop on 1 v6wildcard :: UDP 123
+Mar  7 12:59:24 admin ntpd[668]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Mar  7 12:59:24 admin ntpd[668]: Listen normally on 3 lo ::1 UDP 123
+Mar  7 12:59:24 admin ntpd[668]: Listening on routing socket on fd #20 for interface updates
+Mar  7 12:59:24 admin ntpd[668]: Deferring DNS for 0.centos.pool.ntp.org 1
+Mar  7 12:59:24 admin ntpd[668]: Deferring DNS for 1.centos.pool.ntp.org 1
+Mar  7 12:59:24 admin ntpd[668]: Deferring DNS for 2.centos.pool.ntp.org 1
+Mar  7 12:59:24 admin ntpd[668]: Deferring DNS for 3.centos.pool.ntp.org 1
+Mar  7 12:59:24 admin ntpd[668]: 0.0.0.0 c016 06 restart
+Mar  7 12:59:24 admin ntpd[668]: 0.0.0.0 c012 02 freq_set kernel 30.189 PPM
+Mar  7 12:59:24 admin openibd: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:24 admin logger[795]: openibd: ERROR: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:24 admin network: Bringing up loopback interface:  [  OK  ]
+Mar  7 12:59:25 admin openibd: Module mlx4_ib belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[848]: openibd: ERROR: Module mlx4_ib belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Mar  7 12:59:25 admin kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  7 12:59:25 admin kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Mar  7 12:59:25 admin openibd: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[875]: openibd: ERROR: Module mlx4_core belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Module mlx4_en belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[882]: openibd: ERROR: Module mlx4_en belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Module mlx5_core belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[889]: openibd: ERROR: Module mlx5_core belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Module mlx5_ib belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[896]: openibd: ERROR: Module mlx5_ib belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Module ib_umad belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[905]: openibd: ERROR: Module ib_umad belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Module ib_uverbs belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[912]: openibd: ERROR: Module ib_uverbs belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Module ib_ipoib belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[919]: openibd: ERROR: Module ib_ipoib belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Loading HCA driver and Access Layer:[  OK  ]
+Mar  7 12:59:25 admin openibd: Module rdma_cm belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[928]: openibd: ERROR: Module rdma_cm belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin openibd: Module ib_ucm belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:25 admin logger[935]: openibd: ERROR: Module ib_ucm belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:25 admin systemd: Received SIGRTMIN+20 from PID 268 (plymouthd).
+Mar  7 12:59:26 admin openibd: Module rdma_ucm belong to kernel which is not a part of MLNX_OFED, skipping...[FAILED]
+Mar  7 12:59:26 admin logger[942]: openibd: ERROR: Module rdma_ucm belong to kernel which is not a part of MLNX_OFED, skipping...
+Mar  7 12:59:26 admin systemd: openibd.service: main process exited, code=exited, status=3/NOTIMPLEMENTED
+Mar  7 12:59:26 admin systemd: Failed to start openibd - configure Mellanox devices.
+Mar  7 12:59:26 admin systemd: Unit openibd.service entered failed state.
+Mar  7 12:59:26 admin systemd: openibd.service failed.
+Mar  7 12:59:26 admin systemd: Reached target Remote File Systems (Pre).
+Mar  7 12:59:26 admin kernel: floppy0: no floppy controllers found
+Mar  7 12:59:26 admin kernel: work still pending
+Mar  7 12:59:26 admin systemd: Starting Remote File Systems (Pre).
+Mar  7 12:59:26 admin systemd: Reached target Remote File Systems.
+Mar  7 12:59:26 admin systemd: Starting Remote File Systems.
+Mar  7 12:59:26 admin systemd: Starting Permit User Sessions...
+Mar  7 12:59:26 admin systemd: Started Permit User Sessions.
+Mar  7 12:59:26 admin systemd: Starting Wait for Plymouth Boot Screen to Quit...
+Mar  7 12:59:26 admin systemd: Starting Terminate Plymouth Boot Screen...
+Mar  7 12:59:26 admin systemd: Started Command Scheduler.
+Mar  7 12:59:26 admin systemd: Starting Command Scheduler...
+Mar  7 12:59:26 admin systemd: Received SIGRTMIN+21 from PID 268 (plymouthd).
+Mar  7 12:59:26 admin systemd: Started Terminate Plymouth Boot Screen.
+Mar  7 12:59:26 admin systemd: Started Wait for Plymouth Boot Screen to Quit.
+Mar  7 12:59:26 admin systemd: Started Getty on tty1.
+Mar  7 12:59:26 admin systemd: Starting Getty on tty1...
+Mar  7 12:59:26 admin systemd: Reached target Login Prompts.
+Mar  7 12:59:26 admin systemd: Starting Login Prompts.
+Mar  7 12:59:26 admin ntpd_intres[684]: host name not found: 0.centos.pool.ntp.org
+Mar  7 12:59:26 admin ntpd_intres[684]: host name not found: 1.centos.pool.ntp.org
+Mar  7 12:59:26 admin ntpd_intres[684]: host name not found: 2.centos.pool.ntp.org
+Mar  7 12:59:26 admin ntpd_intres[684]: host name not found: 3.centos.pool.ntp.org
+Mar  7 12:59:28 admin ntpd[668]: Listen normally on 4 enp0s8 fe80::a00:27ff:fe36:9b UDP 123
+Mar  7 12:59:29 admin network: Bringing up interface enp0s8:  [  OK  ]
+Mar  7 12:59:29 admin network: Bringing up interface eth0:
+Mar  7 12:59:29 admin dhclient[1029]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7 (xid=0x5ddf3d7c)
+Mar  7 12:59:29 admin dhclient[1029]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x5ddf3d7c)
+Mar  7 12:59:29 admin dhclient[1029]: DHCPOFFER from 10.0.2.2
+Mar  7 12:59:29 admin dhclient[1029]: DHCPACK from 10.0.2.2 (xid=0x5ddf3d7c)
+Mar  7 12:59:30 admin ntpd_intres[684]: host name not found: 0.centos.pool.ntp.org
+Mar  7 12:59:30 admin ntpd_intres[684]: host name not found: 1.centos.pool.ntp.org
+Mar  7 12:59:30 admin ntpd_intres[684]: host name not found: 2.centos.pool.ntp.org
+Mar  7 12:59:30 admin ntpd_intres[684]: host name not found: 3.centos.pool.ntp.org
+Mar  7 12:59:31 admin dhclient[1029]: bound to 10.0.2.15 -- renewal in 41222 seconds.
+Mar  7 12:59:31 admin network: Determining IP information for eth0... done.
+Mar  7 12:59:31 admin network: [  OK  ]
+Mar  7 12:59:31 admin network: Bringing up interface eth1:  ERROR    : [/etc/sysconfig/network-scripts/ifup-eth] Device eth1 does not seem to be present, delaying initialization.
+Mar  7 12:59:31 admin /etc/sysconfig/network-scripts/ifup-eth: Device eth1 does not seem to be present, delaying initialization.
+Mar  7 12:59:31 admin network: [FAILED]
+Mar  7 12:59:31 admin systemd: network.service: control process exited, code=exited status=1
+Mar  7 12:59:31 admin systemd: Failed to start LSB: Bring up/down networking.
+Mar  7 12:59:31 admin systemd: Unit network.service entered failed state.
+Mar  7 12:59:31 admin systemd: network.service failed.
+Mar  7 12:59:31 admin systemd: Reached target Network.
+Mar  7 12:59:31 admin systemd: Starting Network.
+Mar  7 12:59:31 admin systemd: Starting Xinetd A Powerful Replacement For Inetd...
+Mar  7 12:59:31 admin systemd: Starting Berkeley Internet Name Domain (DNS)...
+Mar  7 12:59:31 admin systemd: Starting Dynamic System Tuning Daemon...
+Mar  7 12:59:31 admin systemd: Starting The Salt Master Server...
+Mar  7 12:59:31 admin systemd: Starting NFS Mount Daemon...
+Mar  7 12:59:31 admin systemd: Starting NIS/YP (Network Information Service) Server...
+Mar  7 12:59:31 admin systemd: Starting NIS/YP (Network Information Service) Maps Transferring Accelerator...
+Mar  7 12:59:31 admin systemd: Starting OpenSSH server daemon...
+Mar  7 12:59:31 admin systemd: Starting Postfix Mail Transport Agent...
+Mar  7 12:59:31 admin systemd: Starting HP System Health Monitor...
+Mar  7 12:59:31 admin systemd: Starting The Salt Minion...
+Mar  7 12:59:31 admin systemd: Starting MUNGE authentication service...
+Mar  7 12:59:31 admin systemd: Reached target Network is Online.
+Mar  7 12:59:31 admin systemd: Starting Network is Online.
+Mar  7 12:59:31 admin systemd: Starting DHCPv4 Server Daemon...
+Mar  7 12:59:31 admin systemd: Starting OpenLDAP Server Daemon...
+Mar  7 12:59:31 admin systemd: Starting Automounts filesystems on demand...
+Mar  7 12:59:31 admin systemd: Starting Crash recovery kernel arming...
+Mar  7 12:59:31 admin systemd: Starting System Logging Service...
+Mar  7 12:59:31 admin systemd: Starting NIS/YP (Network Information Service) Users Passwords Change Server...
+Mar  7 12:59:31 admin systemd: PID file /var/run/xinetd.pid not readable (yet?) after start.
+Mar  7 12:59:31 admin systemd: Started Xinetd A Powerful Replacement For Inetd.
+Mar  7 12:59:31 admin yppasswdd-pre-setdomain: Setting NIS domain: 'bird' (environment variable)
+Mar  7 12:59:31 admin systemd: Started NFS Mount Daemon.
+Mar  7 12:59:31 admin systemd: Started NIS/YP (Network Information Service) Maps Transferring Accelerator.
+Mar  7 12:59:31 admin systemd: Started NIS/YP (Network Information Service) Server.
+Mar  7 12:59:31 admin rpc.mountd[1219]: Version 1.3.0 starting
+Mar  7 12:59:31 admin dhcpd: Internet Systems Consortium DHCP Server 4.2.5
+Mar  7 12:59:31 admin dhcpd: Copyright 2004-2013 Internet Systems Consortium.
+Mar  7 12:59:31 admin dhcpd: All rights reserved.
+Mar  7 12:59:31 admin dhcpd: For info, please visit https://www.isc.org/software/dhcp/
+Mar  7 12:59:31 admin systemd: Started NIS/YP (Network Information Service) Users Passwords Change Server.
+Mar  7 12:59:31 admin hp-health.sh: Trying to identify the Product Name.../usr/lib/systemd/scripts/hp-health.sh: line 464: [: : integer expression expected
+Mar  7 12:59:31 admin hp-health.sh: ERROR: This server is NOT supported!
+Mar  7 12:59:31 admin systemd: PID file /var/run/sshd.pid not readable (yet?) after start.
+Mar  7 12:59:31 admin systemd: Started OpenSSH server daemon.
+Mar  7 12:59:31 admin bash: zone localhost/IN: loaded serial 1
+Mar  7 12:59:31 admin bash: zone 0.0.127.in-addr.arpa/IN: loaded serial 1
+Mar  7 12:59:31 admin bash: zone ipmi.cluster/IN: loaded serial 20170126
+Mar  7 12:59:31 admin bash: zone internal.cluster/IN: loaded serial 20170126
+Mar  7 12:59:31 admin bash: zone ipoib.cluster/IN: loaded serial 20170126
+Mar  7 12:59:31 admin bash: zone 0.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  7 12:59:31 admin bash: zone 64.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  7 12:59:31 admin bash: zone 128.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  7 12:59:31 admin xinetd[1196]: xinetd Version 2.3.15 started with libwrap loadavg labeled-networking options compiled in.
+Mar  7 12:59:31 admin xinetd[1196]: Started working: 1 available service
+Mar  7 12:59:31 admin hp-health.sh: Error: No supported management controller found
+Mar  7 12:59:31 admin systemd: hp-health.service: control process exited, code=exited status=1
+Mar  7 12:59:31 admin systemd: Failed to start HP System Health Monitor.
+Mar  7 12:59:31 admin dhcpd: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+Mar  7 12:59:31 admin systemd: Unit hp-health.service entered failed state.
+Mar  7 12:59:31 admin dhcpd: Wrote 0 deleted host decls to leases file.
+Mar  7 12:59:31 admin systemd: hp-health.service failed.
+Mar  7 12:59:31 admin dhcpd: Wrote 0 new dynamic host decls to leases file.
+Mar  7 12:59:31 admin systemd: Starting Starts hp asrd (HP ...)...
+Mar  7 12:59:31 admin dhcpd: Wrote 0 leases to leases file.
+Mar  7 12:59:31 admin hp-asrd.sh: hpasrd 1
+Mar  7 12:59:32 admin dhcpd: 
+Mar  7 12:59:32 admin dhcpd: No subnet declaration for eth0 (10.0.2.15).
+Mar  7 12:59:32 admin dhcpd: ** Ignoring requests on eth0.  If this is not what
+Mar  7 12:59:32 admin dhcpd:   you want, please write a subnet declaration
+Mar  7 12:59:32 admin dhcpd:   in your dhcpd.conf file for the network segment
+Mar  7 12:59:32 admin dhcpd:   to which interface eth0 is attached. **
+Mar  7 12:59:32 admin dhcpd: 
+Mar  7 12:59:32 admin dhcpd: Listening on LPF/enp0s8/08:00:27:36:00:9b/172.16.0.0/18
+Mar  7 12:59:32 admin dhcpd: Sending on   LPF/enp0s8/08:00:27:36:00:9b/172.16.0.0/18
+Mar  7 12:59:32 admin dhcpd: Sending on   Socket/fallback/fallback-net
+Mar  7 12:59:32 admin systemd: Started DHCPv4 Server Daemon.
+Mar  7 12:59:32 admin named[1258]: starting BIND 9.9.4-RedHat-9.9.4-38.el7_3.2 -u named
+Mar  7 12:59:32 admin named[1258]: built with '--build=x86_64-redhat-linux-gnu' '--host=x86_64-redhat-linux-gnu' '--program-prefix=' '--disable-dependency-tracking' '--prefix=/usr' '--exec-prefix=/usr' '--bindir=/usr/bin' '--sbindir=/usr/sbin' '--sysconfdir=/etc' '--datadir=/usr/share' '--includedir=/usr/include' '--libdir=/usr/lib64' '--libexecdir=/usr/libexec' '--sharedstatedir=/var/lib' '--mandir=/usr/share/man' '--infodir=/usr/share/info' '--with-libtool' '--localstatedir=/var' '--enable-threads' '--with-geoip' '--enable-ipv6' '--enable-filter-aaaa' '--enable-rrl' '--with-pic' '--disable-static' '--disable-openssl-version-check' '--enable-exportlib' '--with-export-libdir=/usr/lib64' '--with-export-includedir=/usr/include' '--includedir=/usr/include/bind9' '--enable-native-pkcs11' '--with-pkcs11=/usr/lib64/pkcs11/libsofthsm2.so' '--with-dlopen=yes' '--with-dlz-ldap=yes' '--with-dlz-postgres=yes' '--with-dlz-mysql=yes' '--with-dlz-filesystem=yes' '--with-dlz-bdb=yes' '--with-gssapi=yes' '--disable-isc-spnego' '--enable-fixed-rrset' '--with-docbook-xsl=/usr/share/sgml/docbook/xsl-stylesheets' 'build_alias=x86_64-redhat-linux-gnu' 'host_alias=x86_64-redhat-linux-gnu' 'CFLAGS= -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic' 'LDFLAGS=-Wl,-z,relro ' 'CPPFLAGS= -DDIG_SIGCHASE'
+Mar  7 12:59:32 admin named[1258]: ----------------------------------------------------
+Mar  7 12:59:32 admin named[1258]: BIND 9 is maintained by Internet Systems Consortium,
+Mar  7 12:59:32 admin named[1258]: Inc. (ISC), a non-profit 501(c)(3) public-benefit
+Mar  7 12:59:32 admin named[1258]: corporation.  Support and training for BIND 9 are
+Mar  7 12:59:32 admin named[1258]: available at https://www.isc.org/support
+Mar  7 12:59:32 admin named[1258]: ----------------------------------------------------
+Mar  7 12:59:32 admin named[1258]: adjusted limit on open files from 4096 to 1048576
+Mar  7 12:59:32 admin named[1258]: found 1 CPU, using 1 worker thread
+Mar  7 12:59:32 admin named[1258]: using 1 UDP listener per interface
+Mar  7 12:59:32 admin named[1258]: using up to 4096 sockets
+Mar  7 12:59:32 admin systemd: Started Starts hp asrd (HP ...).
+Mar  7 12:59:32 admin named[1258]: loading configuration from '/etc/named.conf'
+Mar  7 12:59:32 admin named[1258]: initializing GeoIP Country (IPv4) (type 1) DB
+Mar  7 12:59:32 admin named[1258]: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind
+Mar  7 12:59:32 admin named[1258]: initializing GeoIP Country (IPv6) (type 12) DB
+Mar  7 12:59:32 admin named[1258]: GEO-106FREE 20160607 Build 1 Copy
+Mar  7 12:59:32 admin named[1258]: GeoIP City (IPv4) (type 2) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP City (IPv4) (type 6) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP City (IPv6) (type 30) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP City (IPv6) (type 31) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP Region (type 3) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP Region (type 7) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP ISP (type 4) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP Org (type 5) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP AS (type 9) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP Domain (type 11) DB not available
+Mar  7 12:59:32 admin named[1258]: GeoIP NetSpeed (type 10) DB not available
+Mar  7 12:59:32 admin named[1258]: using default UDP/IPv4 port range: [1024, 65535]
+Mar  7 12:59:32 admin named[1258]: using default UDP/IPv6 port range: [1024, 65535]
+Mar  7 12:59:32 admin named[1258]: listening on IPv6 interfaces, port 53
+Mar  7 12:59:32 admin named[1258]: listening on IPv4 interface lo, 127.0.0.1#53
+Mar  7 12:59:32 admin named[1258]: listening on IPv4 interface enp0s8, 172.16.0.1#53
+Mar  7 12:59:32 admin named[1258]: listening on IPv4 interface eth0, 10.0.2.15#53
+Mar  7 12:59:32 admin named[1258]: generating session key for dynamic DNS
+Mar  7 12:59:32 admin named[1258]: sizing zone task pool based on 8 zones
+Mar  7 12:59:32 admin named[1258]: zone 'ipmi.cluster' allows updates by IP address, which is insecure
+Mar  7 12:59:32 admin named[1258]: zone 'internal.cluster' allows updates by IP address, which is insecure
+Mar  7 12:59:32 admin named[1258]: zone 'ipoib.cluster' allows updates by IP address, which is insecure
+Mar  7 12:59:32 admin named[1258]: set up managed keys zone for view _default, file 'managed-keys.bind'
+Mar  7 12:59:32 admin named[1258]: command channel listening on 127.0.0.1#953
+Mar  7 12:59:32 admin named[1258]: command channel listening on ::1#953
+Mar  7 12:59:32 admin named[1258]: managed-keys-zone: loaded serial 0
+Mar  7 12:59:32 admin named[1258]: zone 0.0.127.in-addr.arpa/IN: loaded serial 1
+Mar  7 12:59:32 admin named[1258]: zone localhost/IN: loaded serial 1
+Mar  7 12:59:32 admin named[1258]: zone 0.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  7 12:59:32 admin named[1258]: zone ipmi.cluster/IN: loaded serial 20170126
+Mar  7 12:59:32 admin named[1258]: zone 128.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  7 12:59:32 admin named[1258]: zone ipoib.cluster/IN: loaded serial 20170126
+Mar  7 12:59:32 admin named[1258]: zone 64.16.172.in-addr.arpa/IN: loaded serial 20170126
+Mar  7 12:59:32 admin named[1258]: zone internal.cluster/IN: loaded serial 20170126
+Mar  7 12:59:32 admin named[1258]: all zones loaded
+Mar  7 12:59:32 admin systemd: Started Berkeley Internet Name Domain (DNS).
+Mar  7 12:59:32 admin systemd: Reached target Host and Network Name Lookups.
+Mar  7 12:59:32 admin systemd: Starting Host and Network Name Lookups.
+Mar  7 12:59:32 admin named[1258]: running
+Mar  7 12:59:32 admin systemd: Starting Squid caching proxy...
+Mar  7 12:59:32 admin systemd: Starting NFS status monitor for NFSv2/3 locking....
+Mar  7 12:59:32 admin systemd: Starting The Apache HTTP Server...
+Mar  7 12:59:32 admin rpc.statd[1362]: Version 1.3.0 starting
+Mar  7 12:59:32 admin rpc.statd[1362]: Flags: TI-RPC
+Mar  7 12:59:32 admin systemd: Started NFS status monitor for NFSv2/3 locking..
+Mar  7 12:59:32 admin systemd: Starting NFS server and services...
+Mar  7 12:59:32 admin squid[1413]: Squid Parent: will start 1 kids
+Mar  7 12:59:32 admin systemd: Started Squid caching proxy.
+Mar  7 12:59:32 admin squid[1413]: Squid Parent: (squid-1) process 1420 started
+Mar  7 12:59:32 admin systemd: Started The Salt Minion.
+Mar  7 12:59:32 admin kernel: NFSD: starting 90-second grace period (net ffffffff81a9cd80)
+Mar  7 12:59:32 admin systemd: Started NFS server and services.
+Mar  7 12:59:32 admin systemd: Starting Notify NFS peers of a restart...
+Mar  7 12:59:32 admin sm-notify[1478]: Version 1.3.0 starting
+Mar  7 12:59:32 admin systemd: Started Notify NFS peers of a restart.
+Mar  7 12:59:33 admin systemd: Started The Apache HTTP Server.
+Mar  7 12:59:33 admin systemd: Started Dynamic System Tuning Daemon.
+Mar  7 12:59:33 admin ntpd[668]: Listen normally on 5 enp0s8 172.16.0.1 UDP 123
+Mar  7 12:59:33 admin ntpd[668]: Listen normally on 6 eth0 10.0.2.15 UDP 123
+Mar  7 12:59:33 admin ntpd[668]: Listen normally on 7 eth0 fe80::a00:27ff:fe6a:e1e9 UDP 123
+Mar  7 12:59:34 admin systemd: Started OpenLDAP Server Daemon.
+Mar  7 12:59:34 admin systemd: Starting Naming services LDAP client daemon....
+Mar  7 12:59:34 admin systemd: PID file /var/run/nslcd/nslcd.pid not readable (yet?) after start.
+Mar  7 12:59:34 admin nslcd[1935]: version 0.8.13 starting
+Mar  7 12:59:34 admin nslcd[1935]: accepting connections
+Mar  7 12:59:34 admin systemd: Started Naming services LDAP client daemon..
+Mar  7 12:59:34 admin systemd: Started Postfix Mail Transport Agent.
+Mar  7 12:59:34 admin nslcd[1935]: [b0dc51] <passwd(all)> (re)loading /etc/nsswitch.conf
+Mar  7 12:59:34 admin systemd: Started The Salt Master Server.
+Mar  7 12:59:35 admin ntpd_intres[684]: DNS 0.centos.pool.ntp.org -> 209.208.79.69
+Mar  7 12:59:35 admin ntpd_intres[684]: DNS 1.centos.pool.ntp.org -> 45.127.113.2
+Mar  7 12:59:35 admin ntpd_intres[684]: DNS 2.centos.pool.ntp.org -> 192.155.90.13
+Mar  7 12:59:35 admin ntpd_intres[684]: DNS 3.centos.pool.ntp.org -> 138.236.128.36
+Mar  7 12:59:36 admin systemd: Created slice user-0.slice.
+Mar  7 12:59:36 admin systemd: Starting user-0.slice.
+Mar  7 12:59:36 admin systemd: Started Session 1 of user root.
+Mar  7 12:59:36 admin systemd-logind: New session 1 of user root.
+Mar  7 12:59:36 admin systemd: Starting Session 1 of user root.
+Mar  7 12:59:40 admin systemd: Started MUNGE authentication service.
+Mar  7 12:59:40 admin systemd: Starting LSB: slurm daemon management...
+Mar  7 12:59:40 admin slurm: Could not find /etc/slurm/slurm.conf. Bad path?
+Mar  7 12:59:40 admin systemd: slurm.service: control process exited, code=exited status=1
+Mar  7 12:59:40 admin systemd: Failed to start LSB: slurm daemon management.
+Mar  7 12:59:40 admin systemd: Unit slurm.service entered failed state.
+Mar  7 12:59:40 admin systemd: slurm.service failed.
+Mar  7 12:59:41 admin systemd: Started System Logging Service.
+Mar  7 12:59:41 admin systemd: Started Automounts filesystems on demand.
+Mar  7 12:59:41 admin systemd: Reached target Multi-User System.
+Mar  7 12:59:41 admin systemd: Starting Multi-User System.
+Mar  7 12:59:41 admin systemd: Starting Update UTMP about System Runlevel Changes...
+Mar  7 12:59:41 admin systemd: Started Update UTMP about System Runlevel Changes.
+Mar  7 12:59:44 admin ntpd[668]: 0.0.0.0 c61c 0c clock_step +1.922651 s
+Mar  7 12:59:44 admin ntpd[668]: 0.0.0.0 c614 04 freq_mode
+Mar  7 12:59:44 admin systemd: Time has been changed
+Mar  7 12:59:45 admin ntpd[668]: 0.0.0.0 c618 08 no_sys_peer
+Mar  7 12:59:50 admin kdumpctl: kexec: loaded kdump kernel
+Mar  7 12:59:50 admin kdumpctl: Starting kdump: [OK]
+Mar  7 12:59:50 admin systemd: Started Crash recovery kernel arming.
+Mar  7 12:59:50 admin systemd: Startup finished in 600ms (kernel) + 2.076s (initrd) + 26.028s (userspace) = 28.706s.
+Mar  7 13:01:01 admin systemd: Started Session 2 of user root.
+Mar  7 13:01:01 admin systemd: Starting Session 2 of user root.
+Mar  7 13:14:27 admin systemd: Starting Cleanup of Temporary Directories...
+Mar  7 13:14:27 admin systemd: Started Cleanup of Temporary Directories.
+Mar  7 13:15:00 admin ntpd[668]: 0.0.0.0 c612 02 freq_set kernel 32.653 PPM
+Mar  7 13:15:00 admin ntpd[668]: 0.0.0.0 c615 05 clock_sync
+Mar  7 13:19:01 admin systemd: Reloaded The Apache HTTP Server.
+Mar  7 13:19:01 admin named[1258]: received control channel command 'reload'
+Mar  7 13:19:01 admin named[1258]: loading configuration from '/etc/named.conf'
+Mar  7 13:19:01 admin named[1258]: initializing GeoIP Country (IPv4) (type 1) DB
+Mar  7 13:19:01 admin named[1258]: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind
+Mar  7 13:19:01 admin named[1258]: initializing GeoIP Country (IPv6) (type 12) DB
+Mar  7 13:19:01 admin named[1258]: GEO-106FREE 20160607 Build 1 Copy
+Mar  7 13:19:01 admin named[1258]: GeoIP City (IPv4) (type 2) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP City (IPv4) (type 6) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP City (IPv6) (type 30) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP City (IPv6) (type 31) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP Region (type 3) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP Region (type 7) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP ISP (type 4) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP Org (type 5) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP AS (type 9) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP Domain (type 11) DB not available
+Mar  7 13:19:01 admin named[1258]: GeoIP NetSpeed (type 10) DB not available
+Mar  7 13:19:01 admin named[1258]: using default UDP/IPv4 port range: [1024, 65535]
+Mar  7 13:19:01 admin named[1258]: using default UDP/IPv6 port range: [1024, 65535]
+Mar  7 13:19:01 admin named[1258]: sizing zone task pool based on 8 zones
+Mar  7 13:19:01 admin named[1258]: zone 'ipmi.cluster' allows updates by IP address, which is insecure
+Mar  7 13:19:01 admin named[1258]: zone 'internal.cluster' allows updates by IP address, which is insecure
+Mar  7 13:19:01 admin named[1258]: zone 'ipoib.cluster' allows updates by IP address, which is insecure
+Mar  7 13:19:01 admin named[1258]: reloading configuration succeeded
+Mar  7 13:19:01 admin named[1258]: reloading zones succeeded
+Mar  7 13:19:01 admin named[1258]: all zones loaded
+Mar  7 13:19:01 admin named[1258]: running
+Mar  7 13:19:01 admin systemd: Reloaded Berkeley Internet Name Domain (DNS).
+Mar  7 13:19:02 admin rsyslogd: [origin software="rsyslogd" swVersion="7.4.7" x-pid="1193" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
